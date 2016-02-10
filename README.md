@@ -3,4 +3,5 @@ This is the start of my enterprise java project
 
 ### Hi
 
-## add project things from other folder and delete.
+- [ ] add project things from other folder and delete.
+- [x] set up database with project
