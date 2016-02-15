@@ -1,24 +1,24 @@
 # Design/Code Review 1
 
-## Project:
+## Project: Tax collector
 
-### Developer:
+### Developer: Jacob 
 
-#### Reviewer:
+#### Reviewer: Jason Matzke
 
 |Category|Criteria|Rating/Comments|
 |--------|---------|---------------|
 |**Problem Statement**|Does it exist?| reviewer rating/comments go here|
-||Does the problem statement accurately describe project purpose?| |
-||Is the problem statement professional? Think of prospective employers viewing this as part of the developer's portfolio.| |
-||What is good?| |
-||What could be improved?| |
-|**Project Plan**|Does it exist?| |
-||Does it demonstrate the developer has thought about all the tasks needed to complete the project?| | 
-||Does it provide enough detail to guide the developer through their development?| | 
-||What is good?| | 
-||What could be improved?| |
-|**UI design**|Does it exist?| |
+||Does the problem statement accurately describe project purpose?|Yes |
+||Is the problem statement professional? Think of prospective employers viewing this as part of the developer's portfolio.|Maybe |
+||What is good?|Yes |
+||What could be improved?|Yes, just some more specifics as they become available |
+|**Project Plan**|Does it exist?|Yes |
+||Does it demonstrate the developer has thought about all the tasks needed to complete the project?| Yes, very thorough| 
+||Does it provide enough detail to guide the developer through their development?|yes | 
+||What is good?| yes| 
+||What could be improved?||
+|**UI design**|Does it exist?|n/a |
 ||Is the navigation/flow through the application logical and easy to use?| |
 ||Is the order in which the fields are displayed and form fields entered logical and easy to use?| |
 ||What data missing?| |

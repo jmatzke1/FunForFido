@@ -23,29 +23,36 @@
 
 ### Week 3 (2/2 - 2/8)
 - [x] Complete database design
-- [ ] Begin creating and try to complete JSPs
-- [ ] Create database and all tables/columns
 - [x] Document application flow
-- [ ] Complete this week's activities and exercises. 
-- [ ] Complete all of your planned individual project tasks.
+- [X] Complete this week's activities and exercises. 
+- [x] Complete all of your planned individual project tasks.
 - [x] Prepare for the Week 4 individual project code review.
-- [ ] Complete your weekly journal entry and time log.
+- [x] Complete your weekly journal entry and time log.
 - [x] Review your [classmates' project ideas](https://github.com/MadJavaEntSpring2016/IndividualProject/blob/master/Projects.md) and let your instructor know if you have a preference 
-- [ ] Set up logging
-- [ ] Set up unit testing
+
 
 ### Week 4 (2/9 - 2/15)
-- [ ] Add Hibernate config
-- [ ] Create DAOs
-- [ ] Add unit tests for DAOs
-- [ ] Weekly journal entry
-- [ ] Code review
+- [x] Begin creating and try to complete JSPs
+- [x] Create database and all tables/columns
+- [x] Code review
+- [x] Weekly journal entry
+- [x] Complete all of your planned individual project tasks.
+- [x] Catch up on exercises
 
 ### Week 5 (2/16 - 2/22)
 - [ ] Weekly journal entry
+- [ ] API research
+- [ ] Complete all of your planned individual project tasks.
+- [ ] Figure out more on Hibernate and add it to project
+- [ ] Add Hibernate config
+- [ ] Create DAOs
+- [ ] Add unit tests for DAOs
+- [ ] Set up logging
+- [ ] Set up unit testing
 
 ### Week 6 (2/23 - 2/29)
 - [ ] Weekly journal entry
+- [ ] Complete all of your planned individual project tasks.
 
 ### Week 7 (3/1 - 3/7)
 - [ ] Weekly journal entry

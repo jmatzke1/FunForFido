@@ -1,6 +1,6 @@
 # Design/Code Review 1
 
-## Project:
+## Project: YouDeserveBetterToday
 
 ### Developer: Nancy
 
@@ -10,26 +10,26 @@
 |--------|---------|---------------|
 |**Problem Statement**|Does it exist?| reviewer rating/comments go here|
 ||Does the problem statement accurately describe project purpose?|Nancy was a specific problem statement and a specific goal in mind|
-||Is the problem statement professional? Think of prospective employers viewing this as part of the developer's portfolio.| |
+||Is the problem statement professional? Think of prospective employers viewing this as part of the developer's portfolio.| She has a good start to it. Adding the links for design would help to see the design easier |
 ||What is good?| Good detail, good idea|
-||What could be improved?| |
-|**Project Plan**|Does it exist?| |
+||What could be improved?| She has a great start, just a little housekeeping will make it look even better|
+|**Project Plan**|Does it exist?| Yes |
 ||Does it demonstrate the developer has thought about all the tasks needed to complete the project?|  Most have been thought, maybe check them off as they are finished would help also| 
 ||Does it provide enough detail to guide the developer through their development?|As mush as I could tell | 
 ||What is good?| yes, nice looking list| 
 ||What could be improved?| It is fine, just keeping up will be good|
-|**UI design**|Does it exist?| |
-||Is the navigation/flow through the application logical and easy to use?| |
-||Is the order in which the fields are displayed and form fields entered logical and easy to use?| |
-||What data missing?| |
-||Is there data that is not used?| |
-||What is good?| |
-||What could be improved?| |
-|**Data model**|Does it exist?| |
-||Is everything on the screens represented in the model?| |
-||Does the model represent good database design? | |
-||What is good?| |
-||What could be better?| |
+|**UI design**|Does it exist?| There is a design for the home page|
+||Is the navigation/flow through the application logical and easy to use?| n/a|
+||Is the order in which the fields are displayed and form fields entered logical and easy to use?|n/a |
+||What data missing?| form|
+||Is there data that is not used?|n/a |
+||What is good?|n/a |
+||What could be improved?| n/a|
+|**Data model**|Does it exist?| no|
+||Is everything on the screens represented in the model?| n/a|
+||Does the model represent good database design? | n/a|
+||What is good?|n/a |
+||What could be better?|n/a |
 |**Additional design documents**| | |
 |**Application structure in IntelliJ**|Does it exist?|Some of it is in there |
 ||src directory with well-named packages for entity, controller, persistence|Yes |
@@ -47,8 +47,8 @@
 ||Are the same lines of code repeated at all?| n/a| 
 ||Do any classes perform very similar functions that could be candidates for super/subclass relationships?| n/a|
 ||Are any values hard-coded that should be in a properties file?| n/a|
-||Are variable names descriptive?| |
-||Are there many branches or loops that could be simplified or broken up into smaller methods?| |
+||Are variable names descriptive?|n/a |
+||Are there many branches or loops that could be simplified or broken up into smaller methods?|n/a |
 ||Do the DAOs use Hibernate? No hard-coded sql!| n/a|
 ||Other comments/notes?|n/a |
 |**Logging**|Has log4J been added?| n/a|

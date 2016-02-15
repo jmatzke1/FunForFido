@@ -25,16 +25,17 @@ Already not dong good staying ahead of the game. Busy weekend at work and strugg
 ---
 ---
 
-#### Week 4 
----
+#### Week 4  2/10 - 2/16
+I did get the application flow and some other little things done this week.
 
 
 ---
-
-#### Week 5 
 ---
 
+#### Week 5 2/17 - 2/23
 
+
+---
 ---
 
 #### Week 6 
