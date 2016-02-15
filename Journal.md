@@ -19,7 +19,7 @@ This week I got openshift up, finished up exercises. I had problems with openshi
 
 #### Week 3 - 2/3 -2/9
 
-Already not dong good staying ahead of the game. Busy weekend at work and struggling in a AJAX project put me behind here. Almost nothing done over the weekend. Will work to get ahead this week with mothing due in other classes for a few weeks.
+Already not doing good staying ahead of the game. Busy weekend at work and struggling in a AJAX project put me behind here. Almost nothing done over the weekend. Will work to get ahead this week with mothing due in other classes for a few weeks.
 
 
 ---
