@@ -9,4 +9,5 @@
 |2/9| getting all dependencies for project/ getting ready for code review| 3| |
 |2/12| feedback for code review jake and nancy, finding skeleton website | 2||
 |2/12| triyng to catch up everything /set up database| 3 | |
+
  
