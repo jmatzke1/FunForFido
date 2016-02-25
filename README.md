@@ -19,7 +19,7 @@ I am going to look for a way to pull information from many different sources. I 
  [Home Page] (https://github.com/jmatzke1/JasonMatzkeEnterpriseIndividualProject/blob/master/images/design.md)
  
  ##Project Plan
- [Project Plan](https://github.com/jmatzke1/JasonMatzkeEnterpriseIndividualProject/blob/master/ProjectPlan.md)
+ [Project Plan](https://github.com/jmatzke1/FunForFido/blob/master/ProjectPlan.md)
  ##Journal
- [Development Journal](https://github.com/jmatzke1/JasonMatzkeEnterpriseIndividualProject/blob/master/Journal.md)
+ [Development Journal](https://github.com/jmatzke1/FunForFido/blob/master/Journal.md)
  
