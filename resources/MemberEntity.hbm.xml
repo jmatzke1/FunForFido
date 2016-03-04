@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.jason.funForFido.entity.MemberEntity" table="member">
+        <meta attribute="class-description">
+            This class contains the member entity detail.
+        </meta>
+
+        <!--Add id for the key -->
+        <id name="memberId" type="int"
+            column="MemberID">
+            <generator class="native"/>
+        </id>
+        <!--Add a property for all other instance variables/columns-->
+        <property name="lastName" column="LastName"
+                  type="string"/>
+        <property name="lastName" column="FirstName"
+                  type="string"/>
+        <property name="address" column="Address"
+                  type="string"/>
+        <property name="city" column="City"
+                  type="string"/>
+        <property name="zipCode" column="ZipCode"
+                  type="string"/>
+        <property name="emailAddress" column="EmailAddress"
+                  type="string"/>
+    </class>
+</hibernate-mapping>

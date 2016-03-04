@@ -41,7 +41,7 @@
 <div class="container">
   Why is this doing this
   <i class="fa fa-shield"></i> normal<br>
-  <i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90<br>
+  <a href="admin/admin.jsp"><i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90<br></a>
   <i class="fa fa-shield fa-rotate-180"></i> fa-rotate-180<br>
   <i class="fa fa-shield fa-rotate-270"></i> fa-rotate-270<br>
   <i class="fa fa-shield fa-flip-horizontal"></i> fa-flip-horizontal<br>

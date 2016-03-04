@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.jason.funForFido.entity.ParkEntity" table="park">
+        <meta attribute="class-description">
+            This class contains the parkEntity detail.
+        </meta>
+
+        <!--Add id for the key -->
+        <id name="parkId" type="int"
+            column="ParkID">
+            <generator class="native"/>
+        </id>
+        <!--Add a property for all other instance variables/columns-->
+        <property name="longitude" column="longitude"
+                  type="string"/>
+        <property name="latitude" column="latitude"
+                  type="string"/>
+        <property name="address" column="Address"
+                  type="string"/>
+        <property name="city" column="City"
+                  type="string"/>
+        <property name="zip" column="zip"
+                  type="string"/>
+    </class>
+</hibernate-mapping>
