@@ -3,6 +3,14 @@
     <output-path>$PROJECT_DIR$/out/artifacts/FunForFido_war</output-path>
     <root id="archive" name="FunForFido_war.war">
       <element id="artifact" artifact-name="FunForFido:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="mysql-connector-java-5.1.35-bin" />
+          <element id="file-copy" path="$PROJECT_DIR$/../geronimo-osgi-locator-1.0.jar" />
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="log4j" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
