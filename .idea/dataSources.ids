@@ -6,7 +6,74 @@
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
-    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="funforfido"/>
+      <table id="2" parent="1" name="Member"/>
+      <table id="3" parent="1" name="Park"/>
+      <column id="4" parent="2" name="MemberID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="LastName">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="6" parent="2" name="FirstName">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="7" parent="2" name="Address">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="8" parent="2" name="City">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="9" parent="2" name="State">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="10" parent="2" name="ZipCode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="11" parent="2" name="EmailAddress">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <key id="12" parent="2" name="PRIMARY">
+        <columns>MemberID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="13" parent="3" name="ParkID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="14" parent="3" name="longitude">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="15" parent="3" name="latitude">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="16" parent="3" name="address">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="17" parent="3" name="city">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="18" parent="3" name="state">
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="19" parent="3" name="zip">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="20" parent="3" name="PRIMARY">
+        <columns>ParkID</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+  <data-source name="hibernate.cfg.xml/Hibernate" uuid="570d94e1-d198-416c-b2aa-a2d337d59cc5">
+    <database-info product="MySQL" version="5.7.10" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
       <schema id="1" name="funforfido"/>
       <table id="2" parent="1" name="Member"/>
       <table id="3" parent="1" name="Park"/>
