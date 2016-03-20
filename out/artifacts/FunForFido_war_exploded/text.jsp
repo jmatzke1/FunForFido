@@ -8,13 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-<jsp:include page="head.jsp" />
+<jsp:include page="template/head.jsp" />
 <body>
-<jsp:include page="header.jsp" />
+<jsp:include page="template/header.jsp" />
 
 
 </body>
 
-<jsp:include page="footer.jsp" />
+<jsp:include page="template/footer.jsp" />
 
 </html>

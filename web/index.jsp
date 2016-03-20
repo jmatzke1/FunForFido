@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<jsp:include page="head.jsp" />
+<jsp:include page="template/head.jsp" />
 
 <body>
 
 <div id="wrapper">
 
-    <jsp:include page="header.jsp" />
+    <jsp:include page="template/header.jsp" />
 
 	<section id="featured">
 	<!-- start slider -->
@@ -209,7 +209,7 @@
 
 	</div>
 	</section>
-	<jsp:include page="footer.jsp" />
+	<jsp:include page="template/footer.jsp" />
 </div>
 
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
