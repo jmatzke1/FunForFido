@@ -22,8 +22,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Features <b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="../typography.jsp">Typography</a></li>
-                            <li><a href="../components.jsp">Components</a></li>
+                            <li><a href="../typography.jsp">Sign in</a></li>
+                            <li><a href="../components.jsp">Search an area</a></li>
                             <li><a href="../pricingbox.jsp">Pricing box</a></li>
                         </ul>
                     </li>
