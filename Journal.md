@@ -26,20 +26,80 @@ Already not doing good staying ahead of the game. Busy weekend at work and strug
 ---
 
 #### Week 4  2/10 - 2/16
-I did get the application flow and some other little things done this week.
+I did get the application flow and some other little things done this week.I finalized on my indepenent research and will do the reasearch on it.
 
 
 ---
 ---
 
 #### Week 5 2/17 - 2/23
+I did a little research on my topic. I may have trouble with it because of the complexity of the language
 
 
 ---
 ---
 
 #### Week 6 
+
+---
 ---
 
+#### Week 7
 
+
+---
+---
+
+#### Week 8
+
+
+---
+---
+
+#### Week 9
+
+
+---
+---
+
+#### Week 10
+
+
+---
+---
+
+#### Week 11
+
+
+---
+---
+
+#### Week 12
+
+
+---
+---
+
+#### Week 13
+
+
+---
+---
+
+#### Week 14
+
+
+---
+---
+
+#### Week 15
+
+
+---
+---
+
+#### Week 16
+
+
+---
 ---
