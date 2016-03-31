@@ -20,16 +20,16 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="../index.jsp">Home</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Features <b class=" icon-angle-down"></b></a>
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Sign in  <b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="../typography.jsp">Sign in</a></li>
-                            <li><a href="../components.jsp">Search an area</a></li>
-                            <li><a href="../pricingbox.jsp">Pricing box</a></li>
+                            <li><a href="../text.jsp">Search an area</a></li>
+                            <li><a href="../addNewMember">Sign up</a></li>
                         </ul>
                     </li>
-                    <li><a href="../portfolio.jsp">Portfolio</a></li>
-                    <li><a href="../blog.jsp">Blog</a></li>
-                    <li><a href="../contact.jsp">Contact</a></li>
+                    <li><a href="../portfolio.jsp">Portfolio - Search an area</a></li>
+                    <li><a href="../blog.jsp">Add a park</a></li>
+                    <li><a href="../contact.jsp">Contact us</a></li>
                 </ul>
             </div>
         </div>

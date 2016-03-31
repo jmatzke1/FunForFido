@@ -1,9 +1,10 @@
 package com.jason.funForFido.persistence;
 
+import org.apache.log4j.*;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-//import org.apache.log4j.Logger;
 
 /**
  * @author jjjasonm
@@ -17,7 +18,7 @@ import java.sql.SQLException;
 
         private Connection connection;
 
-        //private final Logger log = Logger.getLogger(this.getClass());
+        private final Logger log = Logger.getLogger(this.getClass());
 
         // private constructor prevents instantiating this class anywhere else
         private Database() {
@@ -54,7 +55,7 @@ import java.sql.SQLException;
                 try {
                     connection.close();
                 } catch (SQLException e) {
-                   // log.error("Cannot close connection",e);
+                   log.error("Cannot close connection",e);
                 }
             }
 

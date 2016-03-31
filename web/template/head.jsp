@@ -17,7 +17,7 @@
     <link href="css/jcarousel.css" rel="stylesheet" />
     <link href="../css/flexslider.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
-
+    <!-- TODO: Bootstrap and jquery cdn -->
 
     <!-- Theme skin -->
     <link href="../skins/default.css" rel="stylesheet" />

@@ -15,4 +15,5 @@
         <mapping class="com.jason.funForFido.entity.ParkEntity"/>
     </session-factory>
 
+
 </hibernate-configuration>

@@ -5,6 +5,8 @@
   Time: 2:27 PM
   To change this template use File | Settings | File Templates.
 --%>
+
+<!-- figure out way to list recent photos-->
 <div class="row">
     <div class="col-lg-12">
         <h4 class="heading">Recent Works</h4>
