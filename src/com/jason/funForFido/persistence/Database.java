@@ -45,9 +45,9 @@ import java.sql.SQLException;
             } catch (ClassNotFoundException e) {
                 throw new Exception("Error: MySQL Driver not found");
             }
-            String url = "jdbc:mysql://localhost:3306/funforfido ";
+            String url = "jdbc:mysql://localhost:3306/funforfido";
 
-            connection = DriverManager.getConnection(url, "admin", "admin");
+            connection = DriverManager.getConnection(url, "root", "password");
         }
 
         public void disconnect() {

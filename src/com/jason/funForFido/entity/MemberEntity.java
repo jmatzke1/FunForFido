@@ -7,7 +7,8 @@ import javax.persistence.*;
  *         Created on 3/4/16.
  */
 @Entity
-@Table(name = "Member", schema = "funforfido", catalog = "")
+@Table(name = "Member", schema = "funforfido")
+// TODO: maybe use catalog in @table
 public class MemberEntity {
     private int memberId;
     private String lastName;

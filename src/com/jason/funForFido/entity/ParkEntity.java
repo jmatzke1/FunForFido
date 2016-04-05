@@ -7,7 +7,7 @@ import javax.persistence.*;
  *         Created on 3/4/16.
  */
 @Entity
-@Table(name = "Park", schema = "funforfido", catalog = "")
+@Table(name = "Park", schema = "funforfido") //catalog = ""
 public class ParkEntity {
     private int parkId;
     private String longitude;
