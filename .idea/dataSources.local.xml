@@ -9,6 +9,7 @@
     </data-source>
     <data-source name="hibernate.cfg.xml/Hibernate" uuid="570d94e1-d198-416c-b2aa-a2d337d59cc5">
       <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
       <schema-pattern>funforfido.*</schema-pattern>
       <default-schemas>funforfido.*</default-schemas>
     </data-source>

@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.jason.funForFido.entity.MemberEntity" table="member">
+    <class name="com.jason.funForFido.entity.MemberEntity" table="Member">
         <meta attribute="class-description">
             This class contains the member entity detail.
         </meta>
@@ -17,7 +17,7 @@
         <!--Add a property for all other instance variables/columns-->
         <property name="lastName" column="LastName"
                   type="string"/>
-        <property name="lastName" column="FirstName"
+        <property name="firstName" column="FirstName"
                   type="string"/>
         <property name="address" column="Address"
                   type="string"/>

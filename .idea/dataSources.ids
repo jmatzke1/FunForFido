@@ -161,32 +161,36 @@ rolename</columns>
       <column id="21" parent="3" name="zip">
         <data-type>varchar(10)</data-type>
       </column>
-      <key id="22" parent="3" name="PRIMARY">
+      <column id="22" parent="3" name="parkName">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="23" parent="3" name="PRIMARY">
         <columns>ParkID</columns>
         <primary>1</primary>
       </key>
-      <column id="23" parent="4" name="username">
+      <column id="24" parent="4" name="username">
         <mandatory>1</mandatory>
         <data-type>varchar(15)</data-type>
       </column>
-      <column id="24" parent="4" name="rolename">
+      <column id="25" parent="4" name="rolename">
         <mandatory>1</mandatory>
         <data-type>varchar(15)</data-type>
       </column>
-      <key id="25" parent="4" name="PRIMARY">
+      <key id="26" parent="4" name="PRIMARY">
         <columns>username
 rolename</columns>
         <primary>1</primary>
       </key>
-      <column id="26" parent="5" name="username">
+      <column id="27" parent="5" name="username">
         <mandatory>1</mandatory>
         <data-type>varchar(15)</data-type>
       </column>
-      <column id="27" parent="5" name="password">
+      <column id="28" parent="5" name="password">
         <mandatory>1</mandatory>
         <data-type>varchar(25)</data-type>
       </column>
-      <key id="28" parent="5" name="PRIMARY">
+      <key id="29" parent="5" name="PRIMARY">
         <columns>username</columns>
         <primary>1</primary>
       </key>

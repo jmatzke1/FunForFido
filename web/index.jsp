@@ -8,7 +8,7 @@
 <div id="wrapper">
 
 	<jsp:include page="template/header.jsp"/>
-	<jsp:include page="template/map.jsp"/>
+	<jsp:include page="template/indexMap.jsp"/>
 	// TODO: tem<!-- TODO: maybe make the map a link to go to search page -->
 </div>
 <div>
