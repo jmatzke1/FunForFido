@@ -13,6 +13,8 @@
         <mapping resource="ParkEntity.hbm.xml" />
         <mapping class="com.jason.funForFido.entity.MemberEntity"/>
         <mapping class="com.jason.funForFido.entity.ParkEntity"/>
+        <mapping class="com.jason.funForFido.entity.UsersEntity"/>
+        <mapping class="com.jason.funForFido.entity.UserRolesEntity"/>
     </session-factory>
 
 

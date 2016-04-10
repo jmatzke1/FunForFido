@@ -8,8 +8,8 @@
 <div id="wrapper">
 
 	<jsp:include page="template/header.jsp"/>
-	<jsp:include page="template/indexMap.jsp"/>
-	// TODO: tem<!-- TODO: maybe make the map a link to go to search page -->
+
+<!-- TODO: maybe make the map a link to go to search page -->
 </div>
 <div>
 	<section id="featured">
@@ -26,6 +26,14 @@
 									<h3>Find the nearest park</h3>
 									<p>Just enter a city or zip code</p>
 									<a href="#" class="btn btn-theme">Search here</a>
+								</div>
+							</li>
+							<li>
+								<img src="img/slides/4.jpg" alt=""/>
+								<div class="flex-caption">
+									<h3>Find the nearest park</h3>
+									<p>Just enter a city or zip code</p>
+									<a href="/typography" class="btn btn-theme">Search here</a>
 								</div>
 							</li>
 							<li>
@@ -52,7 +60,7 @@
 			</div>
 		</div>
 
-
+		<jsp:include page="template/indexMap.jsp"/>
 	</section>
 
 

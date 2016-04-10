@@ -14,7 +14,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp"><span>F</span>unForFido</a>
+                <a class="navbar-brand" href="index.jsp"><span>F</span>unForFido</a> <!-- todo: make this a little different -->
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
