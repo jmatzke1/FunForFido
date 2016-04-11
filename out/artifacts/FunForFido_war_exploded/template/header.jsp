@@ -14,7 +14,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp"><span>F</span>unForFido</a>
+                <a class="navbar-brand" href="index.jsp"><span>F</span>unForFido</a> <!-- todo: make this a little different -->
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
@@ -22,7 +22,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Sign in  <b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="../typography.jsp">Sign in</a></li>
+                            <li><a href="../searchPark.jsp">Sign in</a></li>
                             <li><a href="../text.jsp">Search an area</a></li>
                             <li><a href="../addNewMember">Sign up</a></li>
                         </ul>

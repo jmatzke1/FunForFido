@@ -13,6 +13,8 @@
 </div>
 <div>
 	<section id="featured">
+		<!-- todo: says not to use absolute path in jsp's? -->
+		<a href="/SearchForPark"><jsp:include page="template/indexMap.jsp"/></a>
 		<!-- start slider -->
 		<div class="container">
 			<div class="row">
@@ -33,7 +35,7 @@
 								<div class="flex-caption">
 									<h3>Find the nearest park</h3>
 									<p>Just enter a city or zip code</p>
-									<a href="/typography" class="btn btn-theme">Search here</a>
+									<a href="SearchForPark" class="btn btn-theme">Search here</a>
 								</div>
 							</li>
 							<li>
@@ -42,7 +44,7 @@
 									<h3>All with different amenities</h3>
 									<p>Sodales neque vitae justo sollicitudin aliquet sit amet diam curabitur sed
 										fermentum.</p>
-									<a href="#" class="btn btn-theme">Learn More</a>
+									<a href="SearchForPark" class="btn btn-theme">Learn More</a>
 								</div>
 							</li>
 							<li>
@@ -50,7 +52,7 @@
 								<div class="flex-caption">
 									<h3>Clean & Fast</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.</p>
-									<a href="#" class="btn btn-theme">Learn More</a>
+									<a href="SearchForPark" class="btn btn-theme">Learn More</a>
 								</div>
 							</li>
 						</ul>
@@ -58,10 +60,11 @@
 					<!-- end slider -->
 				</div>
 			</div>
+
 		</div>
 
-		<jsp:include page="template/indexMap.jsp"/>
-	</section>
+	</section> <!-- end of section featured -->
+
 
 
 	<section class="callaction">

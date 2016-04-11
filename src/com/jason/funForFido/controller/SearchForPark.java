@@ -14,10 +14,10 @@ import java.io.IOException;
  */
 
 
-@WebServlet(name = "typography", urlPatterns = { "/typography" } )
+@WebServlet(name = "searchForPark", urlPatterns = { "/SearchForPark" } )
 
 
-public class Typography extends HttpServlet {
+public class SearchForPark extends HttpServlet {
 
         /**
          *  Handles HTTP GET requests.
@@ -32,7 +32,7 @@ public class Typography extends HttpServlet {
         public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
             // Create the url
-            String url = "/typography.jsp";
+            String url = "/searchPark.jsp";
 
             // Forward to jsp page
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
