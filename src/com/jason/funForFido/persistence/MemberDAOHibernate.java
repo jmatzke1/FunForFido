@@ -16,7 +16,7 @@ public class MemberDAOHibernate implements MemberDao {
 
     // TODO: do i have to use this.getclass?
     private final Logger log = Logger.getLogger(this.getClass());
-
+    // TODO: listener methods ?
     // TODO: Finish out these methods in MemberDao
 
     public List<MemberEntity> getAllMembers() {
@@ -31,12 +31,41 @@ public class MemberDAOHibernate implements MemberDao {
 
     public void updateMember(MemberEntity member) {
 
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = null;
+        try{
+            tx = session.beginTransaction();
+            member = (MemberEntity) session.get(MemberEntity.class, member.getZipCode());
+            member.setZipCode("43245");
+            session.update(member);
+            tx.commit();
+        }catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            e.printStackTrace();
+        }finally {
+            session.close();
+        }
+
     }
 
     @Override
     public void deleteMember(MemberEntity member) {
 
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = null;
+        try{
+            tx = session.beginTransaction();
+         member = (MemberEntity) session.get(MemberEntity.class, member.getMemberId());
+            session.delete(member);
+            tx.commit();
+        }catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            e.printStackTrace();
+        }finally {
+            session.close();
+        }
     }
+
 
     @Override
     public int addMember(MemberEntity member) {
@@ -44,12 +73,24 @@ public class MemberDAOHibernate implements MemberDao {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
-        Integer MemberID = null;
+        Integer MemberID = 0;
+        log.info("*************************");
+        log.info("*add member dao*");
+        log.info("*************************");
+        log.info("member" + member);
 
         try {
+
             tx = session.beginTransaction();
+
+            log.info("*************************");
+            log.info(tx);
+            log.info("*************************");
+
             MemberID = (Integer) session.save(member);
+
             tx.commit();
+
             log.info("Added user: " + member + "with Id of: " + MemberID);
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
