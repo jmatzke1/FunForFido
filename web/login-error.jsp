@@ -11,7 +11,7 @@
 <jsp:include page="template/head.jsp" />
 <body>
 <jsp:include page="template/header.jsp" />
-<jsp:include page="template/form.jsp" />
+
 </body>
 
 <jsp:include page="template/footer.jsp" />

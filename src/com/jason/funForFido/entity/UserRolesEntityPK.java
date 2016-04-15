@@ -6,13 +6,13 @@ import java.io.Serializable;
 
 /**
  * @author jjjasonm
- *         Created on 4/5/16.
+ *         Created on 4/14/16.
  */
 public class UserRolesEntityPK implements Serializable {
     private String username;
     private String rolename;
 
-    @Column(name = "username", nullable = false, length = 15)
+    @Column(name = "username", nullable = false, length = 60)
     @Id
     public String getUsername() {
         return username;
@@ -39,8 +39,10 @@ public class UserRolesEntityPK implements Serializable {
 
         UserRolesEntityPK that = (UserRolesEntityPK) o;
 
-        return username != null ? username.equals(that.username) : that.username == null && (rolename != null ? rolename.equals(that.rolename) : that.rolename == null);
+        if (username != null ? !username.equals(that.username) : that.username != null) return false;
+        if (rolename != null ? !rolename.equals(that.rolename) : that.rolename != null) return false;
 
+        return true;
     }
 
     @Override

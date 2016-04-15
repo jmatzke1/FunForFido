@@ -25,7 +25,10 @@
                   type="string"/>
         <property name="zipCode" column="ZipCode"
                   type="string"/>
+        <property name="password" column="password"
+                  type="string"/>
         <property name="emailAddress" column="EmailAddress"
                   type="string"/>
+
     </class>
 </hibernate-mapping>

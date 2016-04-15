@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 /**
  * @author jjjasonm
- *         Created on 4/5/16.
+ *         Created on 4/14/16.
  */
 @Entity
 @Table(name = "user_roles", schema = "funforfido") //, catalog = ""
@@ -14,7 +14,7 @@ public class UserRolesEntity {
     private String rolename;
 
     @Id
-    @Column(name = "username", nullable = false, length = 15)
+    @Column(name = "username", nullable = false, length = 60)
     public String getUsername() {
         return username;
     }

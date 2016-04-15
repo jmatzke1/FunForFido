@@ -4,19 +4,19 @@ import javax.persistence.*;
 
 /**
  * @author jjjasonm
- *         Created on 3/4/16.
+ *         Created on 4/14/16.
  */
 @Entity
-@Table(name = "Member", schema = "funforfido")
-// TODO: maybe use catalog in @table
+@Table(name = "Member", schema = "funforfido") //, catalog = ""
 public class MemberEntity {
     private int memberId;
-    private String lastName;
-    private String firstName;
     private String address;
     private String city;
     private String state;
     private String zipCode;
+    private String firstName;
+    private String lastName;
+    private String password;
     private String emailAddress;
 
     @Id
@@ -27,26 +27,6 @@ public class MemberEntity {
 
     public void setMemberId(int memberId) {
         this.memberId = memberId;
-    }
-
-    @Basic
-    @Column(name = "LastName", nullable = true, length = 40)
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    @Basic
-    @Column(name = "FirstName", nullable = true, length = 40)
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 
     @Basic
@@ -90,7 +70,37 @@ public class MemberEntity {
     }
 
     @Basic
-    @Column(name = "EmailAddress", nullable = true, length = 40)
+    @Column(name = "firstName", nullable = true, length = 30)
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    @Basic
+    @Column(name = "lastName", nullable = true, length = 40)
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    @Basic
+    @Column(name = "password", nullable = true, length = 30)
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    @Basic
+    @Column(name = "emailAddress", nullable = false, length = 60)
     public String getEmailAddress() {
         return emailAddress;
     }
@@ -107,12 +117,13 @@ public class MemberEntity {
         MemberEntity that = (MemberEntity) o;
 
         if (memberId != that.memberId) return false;
-        if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
-        if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
         if (address != null ? !address.equals(that.address) : that.address != null) return false;
         if (city != null ? !city.equals(that.city) : that.city != null) return false;
         if (state != null ? !state.equals(that.state) : that.state != null) return false;
         if (zipCode != null ? !zipCode.equals(that.zipCode) : that.zipCode != null) return false;
+        if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
+        if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
+        if (password != null ? !password.equals(that.password) : that.password != null) return false;
         if (emailAddress != null ? !emailAddress.equals(that.emailAddress) : that.emailAddress != null) return false;
 
         return true;
@@ -121,12 +132,13 @@ public class MemberEntity {
     @Override
     public int hashCode() {
         int result = memberId;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
         result = 31 * result + (address != null ? address.hashCode() : 0);
         result = 31 * result + (city != null ? city.hashCode() : 0);
         result = 31 * result + (state != null ? state.hashCode() : 0);
         result = 31 * result + (zipCode != null ? zipCode.hashCode() : 0);
+        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + (emailAddress != null ? emailAddress.hashCode() : 0);
         return result;
     }

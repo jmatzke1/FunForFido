@@ -4,16 +4,17 @@ import javax.persistence.*;
 
 /**
  * @author jjjasonm
- *         Created on 4/5/16.
+ *         Created on 4/14/16.
  */
 @Entity
-@Table(name = "users", schema = "funforfido") //, catalog = ""
+@Table(name = "users", schema = "funforfido")
 public class UsersEntity {
     private String username;
     private String password;
+    private int memberId;
 
-    @Id
-    @Column(name = "username", nullable = false, length = 15)
+    @Basic
+    @Column(name = "username", nullable = false, length = 60)
     public String getUsername() {
         return username;
     }
@@ -23,13 +24,23 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "password", nullable = false, length = 25)
+    @Column(name = "password", nullable = true, length = 30)
     public String getPassword() {
         return password;
     }
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Id
+    @Column(name = "memberID", nullable = false)
+    public int getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(int memberId) {
+        this.memberId = memberId;
     }
 
     @Override
@@ -39,6 +50,7 @@ public class UsersEntity {
 
         UsersEntity that = (UsersEntity) o;
 
+        if (memberId != that.memberId) return false;
         if (username != null ? !username.equals(that.username) : that.username != null) return false;
         if (password != null ? !password.equals(that.password) : that.password != null) return false;
 
@@ -49,6 +61,7 @@ public class UsersEntity {
     public int hashCode() {
         int result = username != null ? username.hashCode() : 0;
         result = 31 * result + (password != null ? password.hashCode() : 0);
+        result = 31 * result + memberId;
         return result;
     }
 }

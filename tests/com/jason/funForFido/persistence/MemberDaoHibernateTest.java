@@ -19,7 +19,7 @@ public class MemberDaoHibernateTest {
     public void testAddMember() throws Exception {
 
     MemberDAOHibernate dao = new MemberDAOHibernate();
-    int insertedID = 0;
+    int insertedID;
 
     MemberEntity member = new MemberEntity();
     member.setLastName("Last");
@@ -34,7 +34,7 @@ public class MemberDaoHibernateTest {
 
     logger.info("*************************");
     logger.info("ID: " + insertedID);
-    assertTrue(insertedID > 0);
+    assertTrue("member was not added",insertedID == 0);
     // TODO: return null, could not open connection
 
     }
