@@ -38,7 +38,7 @@ import java.sql.SQLException;
             if (connection != null)
                 return;
             // Note following values should not be hard-coded in a real
-            // application.
+            // application. TODO: put in properties file
             // This is for demonstration only!!
             try {
                 Class.forName("com.mysql.jdbc.Driver");

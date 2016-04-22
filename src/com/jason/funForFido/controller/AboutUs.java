@@ -13,10 +13,10 @@ import java.io.IOException;
  *         Created on 3/29/16.
  */
 
-@WebServlet(name = "AddNewMember", urlPatterns = { "/addNewMember" } )
+@WebServlet(name = "AboutUs", urlPatterns = { "/aboutUs" } )
 
 
-public class MemberSignUp extends HttpServlet {
+public class AboutUs extends HttpServlet {
 
     /**
      *  Handles HTTP GET requests.
@@ -31,7 +31,7 @@ public class MemberSignUp extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         // Create the url
-        String url = "/MemberSignUp.jsp";
+        String url = "/About.jsp";
 
         // Forward to jsp page
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);

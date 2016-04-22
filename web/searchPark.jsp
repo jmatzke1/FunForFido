@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <jsp:include page="template/head.jsp" />
-<body>
+<body onload="testConnection()">
 <div id="wrapper">
 	<jsp:include page="template/header.jsp" />
 	<section id="content">

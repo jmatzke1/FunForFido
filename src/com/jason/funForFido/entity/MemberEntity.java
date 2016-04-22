@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Table(name = "Member", schema = "funforfido") //, catalog = ""
 public class MemberEntity {
     private int memberId;
-    private String address;
+    private String address = "address";
     private String city;
     private String state;
     private String zipCode;

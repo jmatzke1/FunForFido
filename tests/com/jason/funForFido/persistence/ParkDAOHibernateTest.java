@@ -3,6 +3,7 @@ package com.jason.funForFido.persistence;
 
 import com.jason.funForFido.entity.ParkEntity;
 import org.apache.log4j.Logger;
+import org.junit.Test;
 
 /**
  * @author jjjasonm
@@ -19,6 +20,11 @@ public class ParkDAOHibernateTest {
     ParkEntity parkEntity = new ParkEntity();
 
     // TODO: test this dao
+
+    @Test
+    public void addPark() {
+
+    }
 
 
 }

@@ -96,6 +96,7 @@ jQuery(document).ready(function($) {
 			else
 			{
 				$("#sendmessage").removeClass("show");
+				var result;
 				result = msg;
 			}
 		

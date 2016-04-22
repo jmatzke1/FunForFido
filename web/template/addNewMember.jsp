@@ -6,7 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 
-<form class="form-horizontal" role="form">
+<form id="addMemberToDatabase" role="form" data-toggle="validator" class="form-horizontal"
+      action="/addMemberToDatabase"
+      method="post">
     <fieldset>
 
     <div class="form-group"> <!-- first name -->
@@ -24,9 +26,9 @@
     </div>
 
     <div class="form-group">
-        <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+        <label for="emailAddress" class="col-lg-2 control-label">Email</label>
         <div class="col-lg-4">
-            <input type="email" class="form-control" id="inputEmail">
+            <input type="email" class="form-control" id="emailAddress">
         </div>
     </div>
 
@@ -54,21 +56,21 @@
     <div class="form-group">
         <label for="city" class="col-lg-2 control-label">City</label>
         <div class="col-lg-4">
-            <input type="email" class="form-control" id="city">
+            <input type="text" class="form-control" id="city">
         </div>
     </div>
 
     <div class="form-group">
         <label for="state" class="col-lg-2 control-label">State</label>
         <div class="col-lg-4">
-            <input type="email" class="form-control" id="state">
+            <input type="text" class="form-control" id="state">
         </div>
     </div>
 
     <div class="form-group">
         <label for="zipCode" class="col-lg-2 control-label">Zip Code</label>
         <div class="col-lg-4">
-            <input type="email" class="form-control" id="zipCode">
+            <input type="text" class="form-control" id="zipCode">
         </div>
     </div>
 
@@ -77,5 +79,7 @@
             <button type="submit" class="btn btn-default">Sign up</button>
         </div>
     </div>
+
     </fieldset>
+
 </form>
