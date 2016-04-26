@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<%@ %>
 <!DOCTYPE html>
 <html lang="en">
 	<jsp:include page="template/head.jsp" />
@@ -7,12 +8,25 @@
 <div id="wrapper">
 	<jsp:include page="template/header.jsp"/> <!-- TODO: maybe make the map a link to go to search page -->
 </div>
+<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="index.jsp"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+					<li class="active">${request.ID}</li>
+					<li>Welcome, ${requestScope.getOrDefault(username, "Guest")}</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
 
 <div>
 	<section id="featured">
 
 		<div class="container">
-			<jsp:include page="template/slider.jsp" />
+			<jsp:include page="template/flexslider.jsp" />
 		</div>
 		<a href="/SearchForPark"><div class="row">
 			<div class="col-lg-12">
@@ -48,9 +62,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- Portfolio Projects -->
+
+
 		<jsp:include page="template/recentWorks.jsp"/>
+			</div>
 	</section>
 	<jsp:include page="template/footer.jsp"/>
 

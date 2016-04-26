@@ -1,5 +1,5 @@
 <!-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> -->
-<!-- TODO: find out why uri doesn't work -->
+
 <header>
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">
@@ -9,11 +9,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp"><span>F</span>unForFido</a> <!-- todo: make this a little different -->
+                <a class="navbar-brand" href="../index.jsp"><span>F</span>unForFido</a> <!-- todo: make this a little different -->
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="../index.jsp">Home</a></li>
+                    <li class="active">
+                        <a href="../index.jsp"><i class="fa fa-home"></i>   Home</a>
+                    </li>
                     <li class="active"><a href="../aboutUs">About Us</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Sign in  <b class=" icon-angle-down"></b></a>
@@ -32,6 +34,7 @@
                             <li><a href="../oldLinks/pricingbox.jsp">pricing box</a></li>
                             <li><a href="../oldLinks/blog.jsp">blog</a></li>
                             <li><a href="../oldLinks/portfolio.jsp">portfolio</a></li>
+                            <li><a href="../textMap.jsp">TestMap</a></li>
                         </ul>
                     </li>
 
