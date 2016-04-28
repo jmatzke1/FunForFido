@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<c:set var="pageTitle" value="Search near you" scope="request" />
+
 <jsp:include page="template/head.jsp" />
 <body onload="testConnection()">
+
 <div id="wrapper">
 	<jsp:include page="template/header.jsp" />
-	<section id="content">
-
 	<div class="container">
-		<jsp:include page="template/map.jsp" />
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
+
+		<section id="content">
+
+			<jsp:include page="template/innerHeadline.jsp" />
+
+			<!-- divider -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="solidline">
+					</div>
 				</div>
-			</div>
-		</div> <!-- solid line -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
+			</div> <!-- solid line -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="solidline">
+					</div>
 				</div>
-			</div>
-		</div> <!-- solid line -->
+			</div> <!-- solid line -->
+
+
+
+			<jsp:include page="template/map.jsp" />
 
 
 		<!-- divider -->
@@ -43,8 +53,8 @@
 				</pre>
 			</div>
 		</div>
-	</div>
 	</section>
+	</div>
 	<footer>
 	<div class="container">
 		<div class="row">
@@ -123,4 +133,5 @@
 
 <jsp:include page="template/jquery.jsp" />
 </body>
+
 </html>

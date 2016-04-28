@@ -5,7 +5,7 @@
   Time: 2:27 PM
   To change this template use File | Settings | File Templates.
 --%>
-
+<!-- TODO: figure out how to attach photos to users, save image to folder and insert link to the folder -->
 <!-- figure out way to list recent photos-->
 <div class="row">
     <div class="col-lg-12">

@@ -11,11 +11,9 @@
 <jsp:include page="template/head.jsp" />
 <body>
 <jsp:include page="template/header.jsp" />
-<h6>Template slider</h6>
+<%-- <h6> Blog</h6> --%>
+<%-- <jsp:include page="oldLinks/blog.jsp" /> --%>
 
-<jsp:include page="oldLinks/portfolio.jsp" />
-<h6> Blog</h6>
-<jsp:include page="oldLinks/blog.jsp" />
 </body>
 
 <jsp:include page="template/footer.jsp" />

@@ -13,6 +13,7 @@
         </web-resource-collection>
         <auth-constraint>
             <role-name>member</role-name>
+            <role-name>admin</role-name>
         </auth-constraint>
     </security-constraint>
 

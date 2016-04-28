@@ -8,6 +8,6 @@ function testConnection() {
     console.log("?????");
 }
 
-function makeMapResults() {
+    function makeMapResults() {
 
-}
+    }
