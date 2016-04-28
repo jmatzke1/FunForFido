@@ -7,73 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4b36ff-e539-4e29-9703-107656cdc7c4" name="Default" comment="adding formatting for maps">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/UserRoles.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/controller/AboutUs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/controller/AddParkToDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/controller/addMemberToDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/About.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/UserAddPark.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/jcarousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/makeMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/template/aboutTemplate.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/template/callAction.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/template/featured.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/template/slider.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/blog.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/components.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/portfolio.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/pricingbox.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/img/slides/1.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/blog.jsp" afterPath="$PROJECT_DIR$/web/oldLinks/blog.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/components.jsp" afterPath="$PROJECT_DIR$/web/oldLinks/components.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/portfolio.jsp" afterPath="$PROJECT_DIR$/web/oldLinks/portfolio.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/pricingbox.jsp" afterPath="$PROJECT_DIR$/web/oldLinks/pricingbox.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/template/blockQuoteExample.jsp" afterPath="$PROJECT_DIR$/web/oldLinks/blockQuoteExample.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/template/descriptionExample.jsp" afterPath="$PROJECT_DIR$/web/oldLinks/descriptionExample.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/template/rowExample.jsp" afterPath="$PROJECT_DIR$/web/oldLinks/rowExample.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/entity/MemberEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/entity/MemberEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/img/slides/1.jpg" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/img/slides/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/img/slides/3.jpg" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/img/slides/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FunForFido/com/jason/funForFido/entity/MemberEntity.class" afterPath="$PROJECT_DIR$/out/production/FunForFido/com/jason/funForFido/entity/MemberEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/FunForFido/com/jason/funForFido/persistence/ParkDAOHibernateTest.class" afterPath="$PROJECT_DIR$/out/test/FunForFido/com/jason/funForFido/persistence/ParkDAOHibernateTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FunForFido_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FunForFido_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunForFido.iml" afterPath="$PROJECT_DIR$/FunForFido.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/READMETODO.md" afterPath="$PROJECT_DIR$/READMETODO.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jsp" afterPath="$PROJECT_DIR$/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/MemberEntity.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/MemberEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/contact.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/contact.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/css/flexslider.css" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/css/flexslider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/js/validate.js" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/js/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/template/header.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/template/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FunForFido/MemberEntity.hbm.xml" afterPath="$PROJECT_DIR$/out/production/FunForFido/MemberEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FunForFido/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/FunForFido/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MemberEntity.hbm.xml" afterPath="$PROJECT_DIR$/resources/MemberEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/controller/AddPark.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/controller/AddPark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/controller/MemberSignUp.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/controller/MemberSignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/entity/MemberEntity.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/entity/MemberEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/Database.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/Database.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/MemberDAOHibernate.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/MemberDAOHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/ParkDAOHibernate.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/ParkDAOHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/ParkDAOHibernateTest.java" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/ParkDAOHibernateTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/contact.jsp" afterPath="$PROJECT_DIR$/web/contact.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/flexslider.css" afterPath="$PROJECT_DIR$/web/css/flexslider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/validate.js" afterPath="$PROJECT_DIR$/web/js/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/searchPark.jsp" afterPath="$PROJECT_DIR$/web/searchPark.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/addNewMember.jsp" afterPath="$PROJECT_DIR$/web/template/addNewMember.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/addNewPark.jsp" afterPath="$PROJECT_DIR$/web/template/addNewPark.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/header.jsp" afterPath="$PROJECT_DIR$/web/template/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/indexMap.jsp" afterPath="$PROJECT_DIR$/web/template/indexMap.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/jquery.jsp" afterPath="$PROJECT_DIR$/web/template/jquery.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/map.jsp" afterPath="$PROJECT_DIR$/web/template/map.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/web.xml" />
     </list>
     <ignored path="FunForFido.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -200,7 +135,7 @@
       <file leaf-file-name="searchPark.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/searchPark.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
@@ -210,7 +145,7 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
@@ -220,7 +155,7 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -230,7 +165,7 @@
       <file leaf-file-name="form.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/template/form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -250,7 +185,7 @@
       <file leaf-file-name="contact.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/contact.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65217394">
+            <state vertical-scroll-proportion="0.7126697">
               <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding />
             </state>
@@ -260,7 +195,7 @@
       <file leaf-file-name="map.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/template/map.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding />
             </state>
@@ -576,8 +511,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1279,6 +1214,7 @@
       <workItem from="1461092655867" duration="316000" />
       <workItem from="1461099299893" duration="2739000" />
       <workItem from="1461243836332" duration="9752000" />
+      <workItem from="1461870849483" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="add the start of project">
       <created>1455125352286</created>
@@ -1400,7 +1336,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150849000" />
+    <option name="totallyTimeSpent" value="150899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1416,34 +1352,34 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3104895" sideWeight="0.4527897" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.48855507" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4828326" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.48569384" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32307693" sideWeight="0.46566522" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.48855507" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="612" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3104895" sideWeight="0.4527897" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.48855507" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66993004" sideWeight="0.48855507" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3104895" sideWeight="0.5472103" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090909" sideWeight="0.5472103" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59749305" sideWeight="0.48855507" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22838616" sideWeight="0.5538462" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22838616" sideWeight="0.44615385" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5390946" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58320373" sideWeight="0.54969573" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4828326" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="612" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32587412" sideWeight="0.47711015" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32451254" sideWeight="0.47138768" order="1" side_tool="false" content_ui="tabs" />
@@ -1582,9 +1518,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/READMETODO.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.8544304">
@@ -1592,6 +1525,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/template/recentWorks.jsp">
@@ -1606,7 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1630,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42986426">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1638,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.082969435">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1646,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6113537">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1654,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2183406">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1662,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33936653">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1678,7 +1608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1723,15 +1652,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/535e00ea/6d88d66b-44b4-4f53-8c8b-21f470e989ec/funforfido.Park">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1823,7 +1751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.61290324">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1831,7 +1758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1847,9 +1773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1857,7 +1780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1865,7 +1787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.41935483">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1879,7 +1800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/template/map.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
@@ -1897,28 +1818,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/searchPark.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/535e00ea/6d88d66b-44b4-4f53-8c8b-21f470e989ec/funforfido.user_roles">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
@@ -1952,13 +1872,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="11.888889">
           <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/contact.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65217394">
+        <state vertical-scroll-proportion="0.7126697">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
