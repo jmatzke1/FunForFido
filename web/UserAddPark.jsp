@@ -11,6 +11,11 @@
 <jsp:include page="template/head.jsp" />
 <body>
 <jsp:include page="template/header.jsp" />
+
+<div class="container">
+    <jsp:include page="template/innerHeadline.jsp" />
+</div>
+
 <jsp:include page="template/addNewPark.jsp" />
 </body>
 
