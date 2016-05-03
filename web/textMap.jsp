@@ -10,6 +10,9 @@
 <jsp:include page="template/head.jsp" />
 <jsp:include page="template/header.jsp" />
 <h1>Test Map</h1>
-
+<div id="demo"></div>
 <jsp:include page="template/jquery.jsp" />
 </html>
+
+
+

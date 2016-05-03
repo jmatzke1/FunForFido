@@ -7,7 +7,7 @@
 --%>
 <h1>Add new park </h1>
 
-
+<!-- todo: add validation -->
 <form id="addParkToDatabase" role="form" data-toggle="validator" class="form-horizontal"
       action="/addParkToDatabase"
       method="post">

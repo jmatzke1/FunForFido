@@ -5,7 +5,7 @@
   Time: 12:26 PM
   To change this template use File | Settings | File Templates.
 --%>
-
+<!-- todo: add validation -->
 <form id="addMemberToDatabase" role="form" data-toggle="validator" class="form-horizontal"
       action="/addMemberToDatabase"
       method="post">

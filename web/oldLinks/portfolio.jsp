@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<jsp:include page="../template/head.jsp" />
+<jsp:include page="template/head.jsp" />
 <body>
 <div id="wrapper">
 
-	<jsp:include page="../template/header.jsp" />
+	<jsp:include page="/template/header.jsp" />
 	<section id="inner-headline">
 
 	<div class="container">
@@ -127,9 +127,9 @@
 		</div>
 	</div>
 	</section>
-<jsp:include page="../template/footer.jsp" />
+<jsp:include page="template/footer.jsp" />
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<jsp:include page="../template/jquery.jsp" />
+<jsp:include page="template/jquery.jsp" />
 </body>
 </html>

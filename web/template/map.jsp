@@ -6,16 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <div onload="testConnection();" class="container">
-
+    <div id="demo"></div>
     <div class="map">
 
         <!-- todo: fix setting for searching this map -->
         <!-- todo: get current location from browser otherwise map f -->
 
-     <!--   <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Madison+Capital+Region&amp;aq=3&amp;oq=kuningan+&amp;sll=37.0625,-95.677068&amp;sspn=37.410045,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Kuningan&amp;t=m&amp;z=14&amp;ll=-6.238824,106.830177&amp;output=embed">
-        </iframe> -->
-
-   <!--     <iframe src=" https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-43.178516,-89.412994&radius=500&types=food&name=cruise&key=AIzaSyA1rJTG5-NHUwA65pL-YLB4ISKj_13WpYU">
+       <iframe id="iframe">
+        </iframe>
+    <!--    <iframe src="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-43.178516,-89.412994&radius=500&&name=dog+park&key=AIzaSyA1rJTG5-NHUwA65pL-YLB4ISKj_13WpYU">
         </iframe> -->
     </div>
 
@@ -24,7 +23,7 @@
     <input type="radio" id="zipSearch" name="searchType" value="zip" />
     <label for="citySearch"> City </label>
     <input type="radio" id="citySearch" name="searchType" value="city" />
-    <button type="button" id="searchButton" onclick="makeMapResults">Search</button>
+    <button type="button" id="searchButton">Search</button>
 
 </div>
 

@@ -30,7 +30,7 @@ public class AddParkToDatabase extends HttpServlet {
         parkEntity.setState(req.getParameter("state"));
         parkEntity.setZip(req.getParameter("zipCode"));
         log.info(parkEntity + "member");
-        log.debug("Adding User: " + parkEntity);
+        log.debug("+++++Adding User+++++: " + parkEntity);
         ParkDAOHibernate daoHibernate = new ParkDAOHibernate();
         daoHibernate.addPark(parkEntity);
 

@@ -39,13 +39,12 @@ public class AddPark extends HttpServlet {
         // Create the url
         String url = "/UserAddPark.jsp";
         HttpSession session = request.getSession();
-        session.setAttribute("username",request.getUserPrincipal());
-        log.info("username: " + session.getAttribute("username"));
+        //session.setAttribute("username",request.getUserPrincipal());
+       // log.info("username: " + session.getAttribute("username"));
 
         // TODO: set session variable to username
         // Forward to jsp page
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
-
         dispatcher.forward(request, response);
 
     }

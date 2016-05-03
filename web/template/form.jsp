@@ -5,7 +5,7 @@
   Time: 2:35 PM
   To change this template use File | Settings | File Templates.
 --%>
-<div>
+<div class="container">
     <FORM ACTION="j_security_check" METHOD="POST">
         <TABLE>
             <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
@@ -13,4 +13,7 @@
             <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
         </TABLE>
     </FORM>
+    <p>Not a member? Click <a href="/addNewMember">here</a> to sign up</p>
 </div>
+
+<!-- TODO: check for validation in the database , make unique in database -->

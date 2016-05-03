@@ -11,7 +11,6 @@
 <jsp:include page="template/head.jsp" />
 <body>
 <jsp:include page="template/header.jsp" />
-
 </body>
 
 <jsp:include page="template/footer.jsp" />

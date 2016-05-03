@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,8 +28,6 @@
 					</div>
 				</div>
 			</div> <!-- solid line -->
-
-
 
 			<jsp:include page="template/map.jsp" />
 

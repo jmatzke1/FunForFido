@@ -3,7 +3,7 @@
 <jsp:include page="template/head.jsp" />
 <body>
 <div id="wrapper">
-
+<!-- todo: add java mail 476 -->
 	<jsp:include page="template/header.jsp" />
 	<section id="inner-headline">
 	<div class="container">
@@ -26,22 +26,23 @@
 			<div class="col-lg-12">
 				<h4>Get in touch with us by filling <strong>contact form below</strong></h4>
 				<form id="contactform" action="contact/contact.php" method="post" class="validateform" name="send-contact">
-					<div id="sendmessage">
+					<div id="sendmessage"> <!--  -->
 						 Your message has been sent. Thank you!
 					</div>
 					<div class="row">
 						<div class="col-lg-4 field">
-							<input type="text" name="name" placeholder="* Enter your full name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+							<input type="text" id="name" name="name" placeholder="* Enter your full name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+							"
 							<div class="validation">
 							</div>
 						</div>
 						<div class="col-lg-4 field">
-							<input type="text" name="email" placeholder="* Enter your email address" data-rule="email" data-msg="Please enter a valid email" />
+							<input type="email" id="email" name="email" placeholder="* Enter your email address" data-rule="email" data-msg="Please enter a valid email" />
 							<div class="validation">
 							</div>
 						</div>
 						<div class="col-lg-4 field">
-							<input type="text" name="subject" placeholder="Enter your subject" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+							<input type="text" id="s" name="subject" placeholder="Enter your subject" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
 							<div class="validation">
 							</div>
 						</div>

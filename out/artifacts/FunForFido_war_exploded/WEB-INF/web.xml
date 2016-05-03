@@ -10,6 +10,7 @@
             <url-pattern>/addNewPark .jsp</url-pattern>
             <url-pattern>/UserAddPark.jsp</url-pattern>
             <url-pattern>/AddPark</url-pattern>
+
         </web-resource-collection>
         <auth-constraint>
             <role-name>member</role-name>

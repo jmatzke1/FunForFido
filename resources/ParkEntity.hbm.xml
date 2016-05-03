@@ -9,7 +9,7 @@
             This class contains the parkEntity detail.
         </meta>
 
-        <!--Add id for the key -->
+        <!--todo: find null reference, Add id for the key -->
         <id name="parkId" type="int"
             column="ParkID">
             <generator class="native"/>

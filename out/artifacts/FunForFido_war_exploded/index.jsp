@@ -6,20 +6,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<jsp:include page="template/head.jsp" />
-<body>
-<div id="wrapper">
-	<jsp:include page="template/header.jsp"/> <!-- TODO: maybe make the map a link to go to search page -->
-</div>
-<div class="container">
-	<jsp:include page="template/innerHeadline.jsp" />
-</div>
+	<body>
+	<div id="wrapper">
+		<jsp:include page="template/header.jsp"/>
+	</div>
+	<div class="container">
+		<jsp:include page="template/innerHeadline.jsp" />
+	</div>
 
-<div>
+	<div>
 	<section id="featured">
 
 		<div class="container">
 			<jsp:include page="template/flexslider.jsp" />
 		</div>
+
 		<a href="/SearchForPark"><div class="row">
 			<div class="col-lg-12">
 				<div class="big-cta">
@@ -31,7 +32,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- todo: says not to use absolute path in jsp's? -->
+
 		<jsp:include page="template/indexMap.jsp"/>
 		</a>
 
@@ -39,13 +40,14 @@
 </div>
 
 
-	<section class="callaction">
+	<section class="callaction"> <!-- todo: any use ? -->
 		<div class="container">
 
 		</div>
 	</section>
 
 	<!-- TODO: make this template for certain logged in members-->
+	<c:if test="${request.isUserInRole(role)}">
 	<section id="content">
 		<div class="container">
 			<div class="row">
@@ -55,10 +57,10 @@
 				</div>
 			</div>
 
-
 		<jsp:include page="template/recentWorks.jsp"/>
 			</div>
 	</section>
+	</c:if>
 	<jsp:include page="template/footer.jsp"/>
 
 <jsp:include page="template/jquery.jsp"/>

@@ -8,17 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-<jsp:include page="template/head.jsp" />
+<jsp:include page="../template/head.jsp" />
 <body>
-<jsp:include page="template/header.jsp" />
+<jsp:include page="../template/header.jsp" />
 
 <div class="container">
-    <jsp:include page="template/innerHeadline.jsp" />
+    <jsp:include page="../template/innerHeadline.jsp" />
 </div>
 
-<jsp:include page="template/addNewPark.jsp" />
+<jsp:include page="../template/addNewPark.jsp" />
 </body>
 
-<jsp:include page="template/footer.jsp" />
+<jsp:include page="../template/footer.jsp" />
 
 </html>
