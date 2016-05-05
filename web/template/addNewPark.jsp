@@ -8,7 +8,7 @@
 <h1>Add new park </h1>
 
 <!-- todo: add validation -->
-<form id="addParkToDatabase" role="form" data-toggle="validator" class="form-horizontal"
+<form id="addParkToDatabaseForm" role="form" data-toggle="validator" class="form-horizontal"
       action="/addParkToDatabase"
       method="post">
     <fieldset>
@@ -16,35 +16,35 @@
         <div class="form-group">
             <label for="parkName" class="col-lg-2 control-label">Park Name</label>
             <div class="col-lg-4">
-                <input type="text" class="form-control" id="parkName" >
+                <input type="text" class="form-control" name="parkName" id="parkName" >
             </div>
         </div>
 
         <div class="form-group">
             <label for="address" class="col-lg-2 control-label">Address</label>
             <div class="col-lg-4">
-                <input type="text" class="form-control" id="address">
+                <input type="text" class="form-control" name="address" id="address">
                </div>
         </div>
 
         <div class="form-group">
             <label for="city" class="col-lg-2 control-label">City</label>
             <div class="col-lg-4">
-                <input type="text" class="form-control" id="city">
+                <input type="text" class="form-control" name="city" id="city">
             </div>
         </div>
 
         <div class="form-group">
             <label for="state" class="col-lg-2 control-label">State</label>
             <div class="col-lg-4">
-                <input type="text" class="form-control" id="state">
+                <input type="text" class="form-control" name="state" id="state">
             </div>
         </div>
 
         <div class="form-group">
             <label for="zipCode" class="col-lg-2 control-label">Zip Code</label>
             <div class="col-lg-4">
-                <input type="text" class="form-control" id="zipCode">
+                <input type="text" class="form-control" name="zipCode" id="zipCode">
             </div>
         </div>
 

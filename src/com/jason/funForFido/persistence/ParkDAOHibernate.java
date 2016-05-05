@@ -37,12 +37,12 @@ public class    ParkDAOHibernate {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
         // TODO: check to see if this matches the database
-        Integer parkId = null;
+        Integer parkID = null;
 
         try {
 
             tx = session.beginTransaction();
-            parkId = (Integer) session.save(park);
+            parkID = (Integer) session.save(park);
             tx.commit();
             log.info("Added park" + park);
 
@@ -56,6 +56,6 @@ public class    ParkDAOHibernate {
             session.close();
         }
 
-        return parkId;
+        return parkID;
     }
 }

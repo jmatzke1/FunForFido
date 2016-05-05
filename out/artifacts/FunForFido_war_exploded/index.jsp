@@ -7,9 +7,8 @@
 <html lang="en">
 	<jsp:include page="template/head.jsp" />
 	<body>
-	<div id="wrapper">
 		<jsp:include page="template/header.jsp"/>
-	</div>
+
 	<div class="container">
 		<jsp:include page="template/innerHeadline.jsp" />
 	</div>

@@ -18,3 +18,4 @@
         </div>
     </div>
 </section>
+<!-- todo: add logout when logged in -->

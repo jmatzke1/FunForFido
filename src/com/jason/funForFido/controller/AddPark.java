@@ -37,7 +37,7 @@ public class AddPark extends HttpServlet {
 
 
         // Create the url
-        String url = "/UserAddPark.jsp";
+        String url = "/member_add_park.jsp";
         HttpSession session = request.getSession();
         //session.setAttribute("username",request.getUserPrincipal());
        // log.info("username: " + session.getAttribute("username"));

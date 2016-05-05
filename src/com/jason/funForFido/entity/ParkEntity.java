@@ -16,6 +16,15 @@ public class ParkEntity {
     private String city;
     private String state;
     private String zip;
+    private String parkName;
+
+    public String getParkName() {
+        return parkName;
+    }
+
+    public void setParkName(String parkName) {
+        this.parkName = parkName;
+    }
 
     @Id
     @Column(name = "ParkID", nullable = false)

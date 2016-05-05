@@ -1,15 +1,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <c:set var="pageTitle" value="Home" scope="request" />
-
+<!-- Connor webservice to check for valid email-->
 <!-- TODO: set all page titles  -->
 <!DOCTYPE html>
 <html lang="en">
 	<jsp:include page="template/head.jsp" />
 	<body>
-	<div id="wrapper">
 		<jsp:include page="template/header.jsp"/>
-	</div>
+
 	<div class="container">
 		<jsp:include page="template/innerHeadline.jsp" />
 	</div>
@@ -47,6 +46,7 @@
 	</section>
 
 	<!-- TODO: make this template for certain logged in members-->
+		<!-- todo: check Connor's header for showing username-->
 	<c:if test="${request.isUserInRole(role)}">
 	<section id="content">
 		<div class="container">

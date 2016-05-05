@@ -9,9 +9,9 @@
 
 <html>
 <jsp:include page="template/head.jsp" />
-<body>
+<body
 <jsp:include page="template/header.jsp" />
-<h2>Please log in correctly or sign up here</h2>
+<jsp:include page="template/addNewPark.jsp" />
 </body>
 
 <jsp:include page="template/footer.jsp" />

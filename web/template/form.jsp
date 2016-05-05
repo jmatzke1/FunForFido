@@ -17,3 +17,4 @@
 </div>
 
 <!-- TODO: check for validation in the database , make unique in database -->
+<!-- TODO: maybe change authenication -->

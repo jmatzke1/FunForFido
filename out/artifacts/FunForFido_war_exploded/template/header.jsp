@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<div class="wrapper">
 <header>
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">
@@ -47,3 +47,4 @@
         </div>
     </div>
 </header>
+</div>

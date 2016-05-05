@@ -45,8 +45,9 @@ function makeMapResults(lat, lon) {
     var loc = "https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Madison+dog+park+near+53704&amp;aq=3&amp;sll=" + lat + "," + lon + "&amp;ie=UTF8&amp;hq=&amp;t=m&amp;z=11&amp;ll=" + lat + "," + lon + "&amp;output=embed"
 
     //document.getElementById('iFrame').src = loc;
-CON
-    $("#iFrame").attr('src', loc);
 
+    $("#iFrame").attr('src', loc);
+    // todo: find out why null object
+    console.log(document.getElementById("iFrame"));
        // request.getRemoteUser
 }
