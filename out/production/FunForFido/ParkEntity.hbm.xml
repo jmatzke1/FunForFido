@@ -9,22 +9,13 @@
             This class contains the parkEntity detail.
         </meta>
 
-        <!--todo: find null reference, Add id for the key -->
-        <id name="parkId" type="int"
-            column="ParkID">
-            <generator class="native"/>
-        </id>
-        <!--Add a property for all other instance variables/columns-->
+        <id name="parkId" type="int" column="ParkID"><generator class="native"/></id>
         <property name="parkName" column="parkName" type="string" />
-        <property name="longitude" column="longitude"
-                  type="string"/>
-        <property name="latitude" column="latitude"
-                  type="string"/>
-        <property name="address" column="Address"
-                  type="string"/>
-        <property name="city" column="City"
-                  type="string"/>
-        <property name="zip" column="zip"
-                  type="string"/>
+        <property name="longitude" column="longitude" type="string"/>
+        <property name="latitude" column="latitude" type="string"/>
+        <property name="address" column="address" type="string"/>
+        <property name="city" column="city" type="string"/>
+        <property name="state" column="state" type="string" />
+        <property name="zip" column="zip" type="string"/>
     </class>
 </hibernate-mapping>

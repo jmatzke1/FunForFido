@@ -12,8 +12,9 @@
 <body>
 <jsp:include page="template/header.jsp" />
 <h2>Please log in correctly or sign up here</h2>
+<jsp:include page="template/footer.jsp" />
 </body>
 
-<jsp:include page="template/footer.jsp" />
 
+<jsp:include page="template/footer.jsp" />
 </html>

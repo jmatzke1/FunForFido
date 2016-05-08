@@ -47,7 +47,7 @@
 
 	<!-- TODO: make this template for certain logged in members-->
 		<!-- todo: check Connor's header for showing username-->
-	<c:if test="${request.isUserInRole(role)}">
+	<c:if test="${pageContext.request.isUserInRole('member')}">
 	<section id="content">
 		<div class="container">
 			<div class="row">
@@ -61,7 +61,9 @@
 			</div>
 	</section>
 	</c:if>
+		<div class="container">
 	<jsp:include page="template/footer.jsp"/>
+		</div>
 
 <jsp:include page="template/jquery.jsp"/>
 </body>

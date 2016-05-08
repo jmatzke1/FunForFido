@@ -55,7 +55,7 @@ public class MemberDAOHibernate implements MemberDao {
         Transaction tx = null;
         try{
             tx = session.beginTransaction();
-         member = (MemberEntity) session.get(MemberEntity.class, member.getMemberId());
+         member = (MemberEntity) session.get(MemberEntity.class, member.getMemberID());
             session.delete(member);
             tx.commit();
         }catch (HibernateException e) {
@@ -74,24 +74,12 @@ public class MemberDAOHibernate implements MemberDao {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
         Integer MemberID = 0;
-        log.info("*************************");
-        log.info("*add member dao*");
-        log.info("*************************");
-        log.info("member" + member);
 
         try {
 
             tx = session.beginTransaction();
-
-            log.info("*************************");
-            log.info(tx);
-            log.info("*************************");
-
             MemberID = (Integer) session.save(member);
-
             tx.commit();
-
-            log.info("Added user: " + member + "with Id of: " + MemberID);
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             log.error(e);

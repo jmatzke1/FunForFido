@@ -9,7 +9,7 @@
 <!-- figure out way to list recent photos-->
 <div class="row">
     <div class="col-lg-12">
-        <h4 class="heading">Recent Works</h4>
+        <h4 class="heading">Recent</h4>
         <div class="row">
             <section id="projects">
                 <ul id="thumbs" class="portfolio">
@@ -17,12 +17,12 @@
                     <li class="col-lg-3 design" data-id="id-0" data-type="web">
                         <div class="item-thumbs">
                             <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 1" href="img/works/1.jpg">
+                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 1" href="">
                                 <span class="overlay-img"></span>
                                 <span class="overlay-img-thumb font-icon-plus"></span>
                             </a>
                             <!-- Thumb Image and Description -->
-                            <img src="img/works/1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            <img src="img/video/1" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
                         </div>
                     </li>
                     <!-- End Item Project -->

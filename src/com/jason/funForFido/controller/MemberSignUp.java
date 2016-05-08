@@ -31,7 +31,7 @@ public class MemberSignUp extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         // Create the url
-        String url = "/MemberSignUp.jsp";
+        String url = "/member_sign_up.jsp";
 
         // Forward to jsp page
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);

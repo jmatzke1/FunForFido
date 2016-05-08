@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "Member", schema = "funforfido") //, catalog = ""
 public class MemberEntity {
-    private int memberId;
+    private int memberID;
     private String address = "address";
     private String city;
     private String state;
@@ -21,12 +21,12 @@ public class MemberEntity {
 
     @Id
     @Column(name = "MemberID", nullable = false)
-    public int getMemberId() {
-        return memberId;
+    public int getMemberID() {
+        return memberID;
     }
 
-    public void setMemberId(int memberId) {
-        this.memberId = memberId;
+    public void setMemberID(int memberID) {
+        this.memberID = memberID;
     }
 
     @Basic
@@ -116,7 +116,7 @@ public class MemberEntity {
 
         MemberEntity that = (MemberEntity) o;
 
-        if (memberId != that.memberId) return false;
+        if (memberID != that.memberID) return false;
         if (address != null ? !address.equals(that.address) : that.address != null) return false;
         if (city != null ? !city.equals(that.city) : that.city != null) return false;
         if (state != null ? !state.equals(that.state) : that.state != null) return false;
@@ -131,7 +131,7 @@ public class MemberEntity {
 
     @Override
     public int hashCode() {
-        int result = memberId;
+        int result = memberID;
         result = 31 * result + (address != null ? address.hashCode() : 0);
         result = 31 * result + (city != null ? city.hashCode() : 0);
         result = 31 * result + (state != null ? state.hashCode() : 0);

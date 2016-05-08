@@ -67,7 +67,7 @@ public class MemberDaoSql implements MemberDao {
     private MemberEntity createListFromDatabase(ResultSet resultSet) throws  SQLException {
 
         MemberEntity memberEntity = new MemberEntity();
-        memberEntity.setMemberId(resultSet.getInt("MemberID"));
+        memberEntity.setMemberID(resultSet.getInt("MemberID"));
         memberEntity.setLastName(resultSet.getString("LastName"));
         memberEntity.setFirstName(resultSet.getString("FirstName"));
         memberEntity.setAddress(resultSet.getString("Address"));

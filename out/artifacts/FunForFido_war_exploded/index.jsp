@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <c:set var="pageTitle" value="Home" scope="request" />
-
+<!-- Connor webservice to check for valid email-->
 <!-- TODO: set all page titles  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +46,8 @@
 	</section>
 
 	<!-- TODO: make this template for certain logged in members-->
-	<c:if test="${request.isUserInRole(role)}">
+		<!-- todo: check Connor's header for showing username-->
+	<c:if test="${pageContext.request.isUserInRole('member')}">
 	<section id="content">
 		<div class="container">
 			<div class="row">
@@ -60,7 +61,9 @@
 			</div>
 	</section>
 	</c:if>
+		<div class="container">
 	<jsp:include page="template/footer.jsp"/>
+		</div>
 
 <jsp:include page="template/jquery.jsp"/>
 </body>

@@ -1,1 +1,1 @@
-<jsp:include page="slider.jsp" />
+<h1>test test test</h1>

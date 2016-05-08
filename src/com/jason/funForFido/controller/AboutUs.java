@@ -20,6 +20,7 @@ public class AboutUs extends HttpServlet {
 
     /**
      *  Handles HTTP GET requests.
+     *  This is used for access to the jsp page
      *
      *@param  request               the HttpRequest
      *@param  response              the HttpResponse
@@ -31,7 +32,7 @@ public class AboutUs extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         // Create the url
-        String url = "/About.jsp";
+        String url = "/about.jsp";
 
         // Forward to jsp page
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);

@@ -28,12 +28,10 @@ public class AddParkToDatabase extends HttpServlet {
         ParkEntity parkEntity = new ParkEntity();
         parkEntity.setParkId(0);
         parkEntity.setParkName(req.getParameter("parkName"));
-        log.info("pname ========= " + req.getParameter("parkName"));
         parkEntity.setAddress(req.getParameter("address"));
-        log.info("address ========= " + req.getParameter("address"));
         parkEntity.setCity(req.getParameter("city"));
-        log.info("city ========= " + req.getParameter("city"));
         parkEntity.setState(req.getParameter("state"));
+        log.info("state ========= " + req.getParameter("state"));
         parkEntity.setZip(req.getParameter("zipCode"));
         log.info(parkEntity + "member");
         log.info("+++++Adding User+++++: " + parkEntity);

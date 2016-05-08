@@ -17,7 +17,7 @@ import java.io.IOException;
 
 @WebServlet(name = "Login", urlPatterns = { "/Login" } )
 
-public class SignIn extends HttpServlet{
+public class Login extends HttpServlet{
 
     /**
          *  Handles HTTP GET requests.
