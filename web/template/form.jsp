@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <div class="container">
-    <FORM ACTION="j_security_check" METHOD="POST">
+    <FORM class="text-center" ACTION="j_security_check" METHOD="POST">
         <TABLE>
             <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
             <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
