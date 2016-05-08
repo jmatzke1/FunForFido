@@ -96,6 +96,7 @@ function initialize(lat,lon) {
 
     var infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
+    console.log(service);
 
     service.getDetails({
         placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4'
@@ -109,7 +110,7 @@ function initialize(lat,lon) {
                 infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                     'Place ID: ' + place.place_id + '<br>' +
                     place.formatted_address + '</div>');
-                infowindow.open(map, this);
+                infowindow.open(map, marker);
             });
         }
     });

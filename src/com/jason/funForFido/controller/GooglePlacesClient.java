@@ -14,11 +14,11 @@ public class GooglePlacesClient
 {
     private static final String GOOGLE_API_KEY  = "";
 
-    //private final HttpClient client = new DefaultHttpClient();
+    //private final HttpClient client = new HttpClient();
 
     public static void main(final String[] args) throws ParseException, IOException, URISyntaxException
     {
-        new GooglePlacesClient().performSearch("establishment", 8.6668310, 50.1093060);
+        new GooglePlacesClient().performSearch("dog park", 8.6668310, 50.1093060);
     }
 
     public void performSearch(final String types, final double lon, final double lat) throws ParseException, IOException, URISyntaxException
