@@ -13,12 +13,10 @@
 <html>
 <jsp:include page="template/head.jsp" />
 <body>
-<jsp:include page="template/innerHeadline.jsp" />
 <jsp:include page="template/header.jsp" />
+<jsp:include page="template/innerHeadline.jsp" />
 <jsp:include page="template/form.jsp" />
-
 <jsp:include page="template/footer.jsp" />
 </body>
-
 <jsp:include page="template/jquery.jsp" />
 </html>

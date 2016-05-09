@@ -58,7 +58,7 @@ public class AddMemberToDatabase extends HttpServlet {
         userRolesEntity.setUsername(user.getUsername());
         userRolesEntity.setRolename("member");
         UserRoleDao userRoleDao = new UserRoleDao();
-        userRoleDao.addUserRole(userRolesEntity);
+       // userRoleDao.addUserRole(userRolesEntity);
 
 
         // TODO: servlet context for display

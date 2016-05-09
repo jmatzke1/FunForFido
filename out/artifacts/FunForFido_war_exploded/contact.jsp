@@ -9,21 +9,8 @@
 <div id="wrapper">
 <!-- todo: add java mail 476 -->
 	<jsp:include page="template/header.jsp" />
-	<section id="inner-headline">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<ul class="breadcrumb">
-					<li><a href="index.jsp"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">Contact</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	</section>
+	<jsp:include page="template/innerHeadline.jsp" />
 	<section id="content">
-
-		<jsp:include page="template/indexMap.jsp" />
 
 	<div class="container">
 		<div class="row">

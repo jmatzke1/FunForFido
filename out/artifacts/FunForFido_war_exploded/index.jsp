@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <c:set var="pageTitle" value="Home" scope="request" />
-<!-- Connor webservice to check for valid email-->
-<!-- TODO: set all page titles  -->
+<!-- todo: webservice to check for valid email-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<jsp:include page="template/head.jsp" />
@@ -38,15 +38,6 @@
 	</section> <!-- end of section featured -->
 </div>
 
-
-	<section class="callaction"> <!-- todo: any use ? -->
-		<div class="container">
-
-		</div>
-	</section>
-
-	<!-- TODO: make this template for certain logged in members-->
-		<!-- todo: check Connor's header for showing username-->
 	<c:if test="${pageContext.request.isUserInRole('admin')}">
 	<section id="content">
 		<div class="container">

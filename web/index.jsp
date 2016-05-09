@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <c:set var="pageTitle" value="Home" scope="request" />
-<!-- Connor webservice to check for valid email-->
+<!-- todo: webservice to check for valid email-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,13 +37,6 @@
 
 	</section> <!-- end of section featured -->
 </div>
-
-
-	<section class="callaction"> <!-- todo: any use ? -->
-		<div class="container">
-
-		</div>
-	</section>
 
 	<c:if test="${pageContext.request.isUserInRole('admin')}">
 	<section id="content">
