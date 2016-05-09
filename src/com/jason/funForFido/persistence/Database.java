@@ -13,6 +13,9 @@ import java.sql.SQLException;
 
     public class Database {
 
+    /*
+   todo: javadoc
+*/
         // create an object of the class Database
         private static Database instance = new Database();
 
@@ -25,15 +28,22 @@ import java.sql.SQLException;
 
         }
 
+    /*
+       todo: javadoc
+    */
         // get the only Database object available
         public static Database getInstance() {
             return instance;
         }
-
+    /*
+           todo: javadoc
+        */
         public Connection getConnection() {
             return connection;
         }
-
+    /*
+       todo: javadoc
+    */
         public void connect() throws Exception {
             if (connection != null)
                 return;
@@ -49,7 +59,9 @@ import java.sql.SQLException;
 
             connection = DriverManager.getConnection(url, "root", "password");
         }
-
+    /*
+   todo: javadoc
+*/
         public void disconnect() {
             if (connection != null) {
                 try {

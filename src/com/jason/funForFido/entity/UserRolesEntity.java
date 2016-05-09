@@ -9,28 +9,43 @@ import javax.persistence.*;
 @Entity
 @Table(name = "user_roles", schema = "funforfido") //, catalog = ""
 @IdClass(UserRolesEntityPK.class)
+
 public class UserRolesEntity {
-    private String username;
+
+    private String username; //todo: serialize ?
     private String rolename;
 
+    /**
+       Get method for username
+       @return username the members username
+    */
     @Id
     @Column(name = "username", nullable = false, length = 60)
     public String getUsername() {
         return username;
     }
 
+    /**
+     *
+     * @param username
+     */
     public void setUsername(String username) {
         this.username = username;
     }
 
+    /**
+     *
+     * @return
+     */
     @Id
     @Column(name = "rolename", nullable = false, length = 15)
     public String getRolename() {
         return rolename;
     }
-
+    // TODO: add default role;
     public void setRolename(String rolename) {
         this.rolename = rolename;
+
     }
 
     @Override

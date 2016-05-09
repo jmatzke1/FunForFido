@@ -13,6 +13,9 @@ public class SessionFactoryProvider {
 
     private static SessionFactory sessionFactory;
 
+    /*
+       todo: javadoc
+    */
     public static void createSessionFactory() {
         Configuration configuration = new Configuration();
         configuration.configure();
@@ -20,7 +23,9 @@ public class SessionFactoryProvider {
                 configuration.getProperties()). buildServiceRegistry();
         sessionFactory = configuration.buildSessionFactory(serviceRegistry);
     }
-
+    /*
+       todo: javadoc
+    */
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             createSessionFactory();

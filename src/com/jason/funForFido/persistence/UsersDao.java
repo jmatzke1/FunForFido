@@ -12,6 +12,9 @@ public class UsersDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /*
+       todo: javadoc
+    */
     public List<UsersEntity> getAllUsers() {
 
         List<UsersEntity> users = new ArrayList<>();
@@ -31,6 +34,9 @@ public class UsersDao {
         return users;
     }
 
+    /*
+       todo: javadoc
+    */
     public void updateUser(UsersEntity user) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -50,6 +56,9 @@ public class UsersDao {
         }
     }
 
+    /*
+       todo: javadoc
+    */
     public UsersEntity getUser(int id) {
         UsersEntity user = null;
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -70,6 +79,9 @@ public class UsersDao {
         return user;
     }
 
+    /*
+       todo: javadoc
+    */
     public void deleteUser(UsersEntity user) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -89,6 +101,9 @@ public class UsersDao {
 
     }
 
+    /*
+       todo: javadoc
+    */
     public int addUser(UsersEntity user) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -111,6 +126,9 @@ public class UsersDao {
         return employeeId;
     }
 
+    /*
+       todo: javadoc
+    */
     public List<UsersEntity> searchUsers(int pageSize, int offset, String search) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -127,7 +145,9 @@ public class UsersDao {
         return null;
     }
 
-
+    /*
+       todo: javadoc
+    */
     public List<UsersEntity> getUsers(int pageSize, int offset) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();

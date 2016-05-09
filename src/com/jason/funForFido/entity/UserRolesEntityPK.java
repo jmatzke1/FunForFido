@@ -9,7 +9,7 @@ import java.io.Serializable;
  *         Created on 4/14/16.
  */
 public class UserRolesEntityPK implements Serializable {
-    private String username;
+    private String username; //todo: unserialize ?
     private String rolename;
 
     @Column(name = "username", nullable = false, length = 60)

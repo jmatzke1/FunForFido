@@ -16,7 +16,9 @@ import java.util.List;
 public class    ParkDAOHibernate {
 
     private final Logger log = Logger.getLogger(this.getClass());
-
+    /*
+       todo: javadoc
+    */
     public List<ParkEntity> getAllParks() {
 
         List<ParkEntity> parks = new ArrayList<ParkEntity>();
@@ -26,13 +28,17 @@ public class    ParkDAOHibernate {
         return parks;
 
     }
-
+    /*
+       todo: javadoc
+    */
     public ParkEntity getParkById(int id) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         return (ParkEntity)session.get(ParkEntity.class, id);
     }
-
+    /*
+       todo: javadoc
+    */
     public int addPark(ParkEntity park) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;

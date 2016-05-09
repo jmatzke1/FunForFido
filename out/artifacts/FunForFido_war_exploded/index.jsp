@@ -47,7 +47,7 @@
 
 	<!-- TODO: make this template for certain logged in members-->
 		<!-- todo: check Connor's header for showing username-->
-	<c:if test="${pageContext.request.isUserInRole('member')}">
+	<c:if test="${pageContext.request.isUserInRole('admin')}">
 	<section id="content">
 		<div class="container">
 			<div class="row">

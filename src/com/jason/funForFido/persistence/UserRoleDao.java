@@ -11,6 +11,9 @@ public class UserRoleDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /*
+        todo: javadoc
+     */
     public void addUserRole(UserRolesEntity userRole) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -19,7 +22,7 @@ public class UserRoleDao {
 
         try {
             transaction = session.beginTransaction();
-            username = (String) session.save(userRole);
+            username = (String)session.save(userRole);
             transaction.commit();
             log.info("Added employee: " + username);
 
