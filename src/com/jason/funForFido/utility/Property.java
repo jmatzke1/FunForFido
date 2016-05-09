@@ -17,7 +17,7 @@ import java.util.Properties;
 public class Property {
 
     private Properties properties;
-    private final String propertyUrl = "/weather.properties";
+    private final String propertyUrl = "/funforfido.properties";
     private String projectName;
     private String url;
     private String forecastType;

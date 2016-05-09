@@ -7,20 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4b36ff-e539-4e29-9703-107656cdc7c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/entity/MemberEntityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/entity/ParkEntityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/entity/UserRolesEntityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/entity/UsersEntityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/DatabaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/SessionFactoryProviderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UserRoleDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UsersDaoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/funforfido.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/utility/PropertyTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/contact.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/contact.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/controller/addMemberToDatabase.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/controller/addMemberToDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java" />
     </list>
     <ignored path="FunForFido.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,11 +116,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRoleDaoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserRoleDaoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UserRoleDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7302231">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkEntityTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/jason/funForFido/entity/ParkEntityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Property.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funforfido.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/funforfido.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/jason/funForFido/utility/PropertyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -165,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/template/recentWorks.jsp" />
         <option value="$PROJECT_DIR$/src/com/jason/funForFido/entity/MemberEntity.java" />
         <option value="$PROJECT_DIR$/src/com/jason/funForFido/persistence/MemberDaoSql.java" />
         <option value="dbtable:/535e00ea/6d88d66b-44b4-4f53-8c8b-21f470e989ec/funforfido.Member" />
@@ -177,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/com/jason/funForFido/persistence/MemberDAOHibernate.java" />
         <option value="$PROJECT_DIR$/resources/ParkEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/web/template/addNewMember.jsp" />
-        <option value="$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java" />
         <option value="$PROJECT_DIR$/web/template/footer.jsp" />
         <option value="$PROJECT_DIR$/web/template/head.jsp" />
         <option value="$PROJECT_DIR$/web/template/jquery.jsp" />
@@ -216,6 +244,8 @@
         <option value="$PROJECT_DIR$/tests/com/jason/funForFido/entity/ParkEntityTest.java" />
         <option value="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UsersDaoTest.java" />
         <option value="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UserRoleDaoTest.java" />
+        <option value="$PROJECT_DIR$/tests/com/jason/funForFido/utility/PropertyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java" />
       </list>
     </option>
   </component>
@@ -390,6 +420,24 @@
               <option name="myItemId" value="funForFido" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FunForFido" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FunForFido" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="funForFido" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="persistence" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -432,6 +480,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="funForFido" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FunForFido" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FunForFido" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="funForFido" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,6 +613,7 @@
       <recent name="com.jason.funForFido.entity" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jason.funForFido.utility" />
       <recent name="com.jason.funForFido.persistence" />
       <recent name="com.jason.funForFido.entity" />
     </key>
@@ -1186,7 +1257,7 @@
       <workItem from="1462482142004" duration="2799000" />
       <workItem from="1462588428607" duration="3214000" />
       <workItem from="1462661956320" duration="37147000" />
-      <workItem from="1462763127792" duration="1389000" />
+      <workItem from="1462763127792" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="add the start of project">
       <created>1455125352286</created>
@@ -1332,7 +1403,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462761093485</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adding tests">
+      <created>1462765691493</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1462765691493</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1368,7 +1445,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245368000" />
+    <option name="totallyTimeSpent" value="245785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1381,7 +1458,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1430" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277849" sideWeight="0.46541786" order="6" side_tool="false" content_ui="tabs" />
@@ -1397,7 +1474,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5966709" sideWeight="0.48855507" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22838616" sideWeight="0.5604606" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22838616" sideWeight="0.44174135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22838616" sideWeight="0.44174135" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22838616" sideWeight="0.55825865" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1473,7 +1550,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add the start of project" />
     <MESSAGE value="add some form stuff" />
     <MESSAGE value="add more hibernate fun" />
     <MESSAGE value="add some pictures and more todos" />
@@ -1498,7 +1574,8 @@
     <MESSAGE value="I hate google maps and jenkins&#10;" />
     <MESSAGE value="adding todo, fixing form for member" />
     <MESSAGE value="add page titles, jstl on sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="add page titles, jstl on sections" />
+    <MESSAGE value="adding tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1531,21 +1608,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/img/works/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/works/3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/works/4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/img/works/6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1895,14 +1957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/jason/funForFido/entity/ParkEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93914807">
-          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/entity/ParkEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5780933">
@@ -1939,8 +1993,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UserRoleDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7302231">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/jason/funForFido/entity/ParkEntityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/jason/funForFido/utility/PropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/funforfido.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
