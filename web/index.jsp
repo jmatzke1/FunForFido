@@ -2,7 +2,7 @@
 
 <c:set var="pageTitle" value="Home" scope="request" />
 <!-- Connor webservice to check for valid email-->
-<!-- TODO: set all page titles  -->
+
 <!DOCTYPE html>
 <html lang="en">
 	<jsp:include page="template/head.jsp" />
@@ -45,8 +45,6 @@
 		</div>
 	</section>
 
-	<!-- TODO: make this template for certain logged in members-->
-		<!-- todo: check Connor's header for showing username-->
 	<c:if test="${pageContext.request.isUserInRole('admin')}">
 	<section id="content">
 		<div class="container">

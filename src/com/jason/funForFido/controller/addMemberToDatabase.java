@@ -1,8 +1,11 @@
 package com.jason.funForFido.controller;
 
 import com.jason.funForFido.entity.MemberEntity;
+import com.jason.funForFido.entity.UserRolesEntity;
 import com.jason.funForFido.entity.UsersEntity;
 import com.jason.funForFido.persistence.MemberDAOHibernate;
+import com.jason.funForFido.persistence.UserRoleDao;
+import com.jason.funForFido.persistence.UsersDao;
 import org.apache.log4j.Logger;
 
 import javax.servlet.ServletException;
@@ -28,6 +31,7 @@ public class AddMemberToDatabase extends HttpServlet {
             throws ServletException, IOException {
 
         MemberEntity memberEntity = new MemberEntity();
+        //Set all member info
         memberEntity.setMemberID(0);
         memberEntity.setFirstName(req.getParameter("FirstName"));
         memberEntity.setLastName(req.getParameter("LastName"));
@@ -38,15 +42,25 @@ public class AddMemberToDatabase extends HttpServlet {
         memberEntity.setCity(req.getParameter("city"));
         memberEntity.setState(req.getParameter("state"));
         memberEntity.setZipCode(req.getParameter("zipCode"));
+        MemberDAOHibernate daoHibernate = new MemberDAOHibernate();
+        daoHibernate.addMember(memberEntity);
 
+        // set user login
         UsersEntity user = new UsersEntity();
         user.setMemberId(memberEntity.getMemberID());
         user.setUsername(req.getParameter("username"));
         user.setPassword(req.getParameter("password"));
+        UsersDao usersDao = new UsersDao();
+        usersDao.addUser(user);
 
-        MemberDAOHibernate daoHibernate = new MemberDAOHibernate();
-        daoHibernate.addMember(memberEntity);
-        // TODO: add username and role also
+        //add role
+        UserRolesEntity userRolesEntity = new UserRolesEntity();
+        userRolesEntity.setUsername(user.getUsername());
+        userRolesEntity.setRolename("member");
+        UserRoleDao userRoleDao = new UserRoleDao();
+        userRoleDao.addUserRole(userRolesEntity);
+
+
         // TODO: servlet context for display
         String url = "index.jsp";
 

@@ -1,3 +1,7 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<c:set var="pageTitle" value="Sign Up" scope="request" />
+
 <%--
   Created by IntelliJ IDEA.
   User: jjjasonm

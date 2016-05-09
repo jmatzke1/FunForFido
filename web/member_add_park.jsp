@@ -1,3 +1,7 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<c:set var="pageTitle" value="Add a Park" scope="request" />
+
 <%--
   Created by IntelliJ IDEA.
   User: jjjasonm

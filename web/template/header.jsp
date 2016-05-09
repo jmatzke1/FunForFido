@@ -17,6 +17,8 @@
                         <a href="index.jsp"><i class="fa fa-home"></i>Home</a>
                     </li>
                     <li class="active"><a href="aboutUs">About Us</a></li>
+
+                    <c:if test="${pageContext.request.isUserInRole('member')}">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Members<b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
@@ -26,15 +28,20 @@
                             <li><a href="/Login">Log out</a></li>
                         </ul>
                     </li>
+                    </c:if>
+
+                    <c:if test="${pageContext.request.userPrincipal == null}">
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Sign in  <b class=" icon-angle-down"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/Login">Sign In</a></li>
                         <li><a href="/addNewMember">Not a member ? Sign up here</a></li>
                     </ul>
-                </li>
+                    </li>
+                    </c:if>
+
                     <!-- todo: if and otherwise-->
-                    <c:if test="${empty pageContext.request.userPrincipal}" >
+                    <c:if test="${pageContext.request.isUserInRole('admin')}">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">old links <b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">

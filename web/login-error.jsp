@@ -1,3 +1,6 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<c:set var="pageTitle" value="About Us" scope="request" />
 <%--
   Created by IntelliJ IDEA.
   User: jjjasonm
@@ -11,6 +14,7 @@
 <jsp:include page="template/head.jsp" />
 <body>
 <jsp:include page="template/header.jsp" />
+<jsp:include page="template/innerHeadline.jsp" />
 <h2>Please log in correctly or sign up here</h2>
 <jsp:include page="template/footer.jsp" />
 </body>
