@@ -33,9 +33,7 @@ public class MemberDaoHibernateTest {
 
     insertedID = dao.addMember(member);
 
-    logger.info("*************************");
-    logger.info("ID: " + insertedID);
-    assertTrue("member was not added", insertedID > 0);
+    assertTrue("Member was added: " + member.getMemberID(), insertedID > 0);
     }
 
 }
