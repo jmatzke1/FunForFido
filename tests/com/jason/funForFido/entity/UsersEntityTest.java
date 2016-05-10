@@ -1,33 +1,27 @@
 package com.jason.funForFido.entity;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 
 /**
  * @author jjjasonm
- *         Created on 5/8/16.
+ *         Created on 5/8/16
  */
 public class UsersEntityTest {
 
     @Before
     public void setUp() throws Exception {
 
-    }
-
-    @After
-    public void tearDown() throws Exception {
-
-    }
-
-    @Test
-    public void testGetUsername() throws Exception {
+        UsersEntity users = new UsersEntity();
+        users.setMemberId(0);
+        users.setUsername("username");
+        users.setPassword("password");
 
     }
 
     @Test
-    public void testSetUsername() throws Exception {
+    public void testSetMethods() throws Exception {
 
     }
 
@@ -37,17 +31,7 @@ public class UsersEntityTest {
     }
 
     @Test
-    public void testSetPassword() throws Exception {
-
-    }
-
-    @Test
     public void testGetMemberId() throws Exception {
-
-    }
-
-    @Test
-    public void testSetMemberId() throws Exception {
 
     }
 

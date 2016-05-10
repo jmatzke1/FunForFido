@@ -14,6 +14,7 @@ public class MemberEntityTest {
     @Before
     public void setUp() throws Exception {
 
+
     }
 
     @After

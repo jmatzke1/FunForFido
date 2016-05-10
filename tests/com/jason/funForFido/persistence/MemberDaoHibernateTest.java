@@ -4,6 +4,7 @@ package com.jason.funForFido.persistence;
 import com.jason.funForFido.entity.MemberEntity;
 import org.apache.log4j.Logger;
 import org.junit.Test;
+
 import static org.junit.Assert.assertTrue;
 
 
@@ -15,7 +16,7 @@ public class MemberDaoHibernateTest {
 
     private final Logger logger = Logger.getLogger(this.getClass());
 
-@Test
+    @Test
     public void testAddMember() throws Exception {
 
     MemberDAOHibernate dao = new MemberDAOHibernate();
@@ -28,15 +29,13 @@ public class MemberDaoHibernateTest {
     member.setCity("city");
     member.setState("State");
     member.setZipCode("Zip");
-    member.setEmailAddress("Email");
+    member.setEmailAddress("myemail");
 
     insertedID = dao.addMember(member);
 
     logger.info("*************************");
     logger.info("ID: " + insertedID);
-    assertTrue("member was not added",insertedID == 0);
-    // TODO: return null, could not open connection
-
+    assertTrue("member was not added", insertedID > 0);
     }
 
 }

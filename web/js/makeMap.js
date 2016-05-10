@@ -15,7 +15,6 @@ function getLocation() {
 
 var map;
 function initialize(lat,lon) {
-    console.log("ll" + lat, lon);
 
     var mapOptions = {
         zoom: 11,

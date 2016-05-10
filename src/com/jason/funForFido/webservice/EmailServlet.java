@@ -1,4 +1,4 @@
-package com.jason.funForFido.controller;
+package com.jason.funForFido.webservice;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
