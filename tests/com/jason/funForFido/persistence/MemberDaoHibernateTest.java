@@ -23,17 +23,23 @@ public class MemberDaoHibernateTest {
     int insertedID;
 
     MemberEntity member = new MemberEntity();
-    member.setLastName("Last");
-    member.setFirstName("First");
-    member.setAddress("Address");
-    member.setCity("city");
-    member.setState("State");
-    member.setZipCode("Zip");
-    member.setEmailAddress("myemail");
+    member.setLastName("TestLast");
+    member.setFirstName("TestFirst");
+    member.setAddress("TestAddress");
+    member.setCity("Testcity");
+    member.setState("TestState");
+    member.setZipCode("TestZip");
+    member.setEmailAddress("Testmyemail");
+
+    logger.info(member.getFirstName());
 
     insertedID = dao.addMember(member);
 
     assertTrue("Member was added: " + member.getMemberID(), insertedID > 0);
+
+    dao.deleteMember(member);
+
     }
+
 
 }

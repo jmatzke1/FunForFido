@@ -8,7 +8,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
@@ -38,11 +37,7 @@ public class AddPark extends HttpServlet {
 
         // Create the url
         String url = "/member_add_park.jsp";
-        HttpSession session = request.getSession();
-        //session.setAttribute("username",request.getUserPrincipal());
-       // log.info("username: " + session.getAttribute("username"));
 
-        // TODO: set session variable to username
         // Forward to jsp page
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);

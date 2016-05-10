@@ -19,6 +19,10 @@ public class MemberDAOHibernate implements MemberDao {
     // TODO: listener methods ?
     // TODO: Finish out these methods in MemberDao
 
+    /**
+     * TODO: javadoc
+     * @return
+     */
     public List<MemberEntity> getAllMembers() {
 
         List<MemberEntity> members = new ArrayList<MemberEntity>();
@@ -28,7 +32,10 @@ public class MemberDAOHibernate implements MemberDao {
         return members;
     }
 
-
+    /**
+     * TODO: javadoc
+     * @param member
+     */
     public void updateMember(MemberEntity member) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();

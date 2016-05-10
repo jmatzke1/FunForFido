@@ -10,9 +10,12 @@ import org.junit.Test;
  *         Created on 5/8/16.
  */
 public class UserRolesEntityTest {
+    UserRolesEntity userRolesEntity;
+
 
     @Before
     public void setUp() throws Exception {
+         userRolesEntity = new UserRolesEntity();
 
     }
 

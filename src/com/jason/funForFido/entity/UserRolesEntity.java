@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class UserRolesEntity {
 
     private String username; //todo: serialize ?
-    private String rolename;
+    private String rolename = "member";
 
     /**
        Get method for username
@@ -22,6 +22,7 @@ public class UserRolesEntity {
     @Id
     @Column(name = "username", nullable = false, length = 60)
     public String getUsername() {
+
         return username;
     }
 

@@ -26,6 +26,13 @@ public class AddMemberToDatabase extends HttpServlet {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /**
+     * todo: javadoc
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
@@ -56,9 +63,8 @@ public class AddMemberToDatabase extends HttpServlet {
         //add role
         UserRolesEntity userRolesEntity = new UserRolesEntity();
         userRolesEntity.setUsername(user.getUsername());
-        userRolesEntity.setRolename("member");
         UserRoleDao userRoleDao = new UserRoleDao();
-       // userRoleDao.addUserRole(userRolesEntity);
+        //userRoleDao.addUserRole(userRolesEntity);
 
 
         // TODO: servlet context for display

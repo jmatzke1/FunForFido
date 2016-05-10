@@ -25,7 +25,7 @@
                             <li><a href="../AddPark">Edit Profile</a></li>
                             <li><a href="../searchPark.jsp">Search an area</a></li>
                             <li><a href="../AddPark">Add a park</a></li>
-                            <li><a href="/Login">Log out</a></li>
+                            <li><a href="/logUserOut">Log out</a></li>
                         </ul>
                     </li>
                     </c:if>

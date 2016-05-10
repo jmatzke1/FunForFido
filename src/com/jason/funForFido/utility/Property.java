@@ -20,7 +20,6 @@ public class Property {
     private final String propertyUrl = "/funforfido.properties";
     private String projectName;
     private String url;
-    private String forecastType;
     private String key;
     private String request;
     private final Logger log = Logger.getLogger(this.getClass());
