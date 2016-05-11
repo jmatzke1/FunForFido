@@ -3,16 +3,12 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
- <class name="com.jason.funForFido.entity.UsersEntity" table="users">
-     <meta attribute="class-description">
-         The class has user details
-     </meta>
-     <id name="memberID" type="int" column="memberID">
-         <generator class="foreign">
-             <param name="property">com.jason.funForFido.entity.MemberEntity</param>
-         </generator>
-     </id>
-     <property name="username" column="username" type="string" />
-     <property name="password" column="password" type="string" />
- </class>
+    <class name="com.jason.funForFido.entity.UsersEntity" table="users">
+        <meta attribute="class-description">
+            The class has user details
+        </meta>
+        <id name="username" type="string" column="username">
+        </id>
+        <property name="password" column="password" type="string" />
+    </class>
 </hibernate-mapping>

@@ -14,7 +14,6 @@ public class UsersEntityTest {
     public void setUp() throws Exception {
 
         UsersEntity users = new UsersEntity();
-        users.setMemberId(0);
         users.setUsername("username");
         users.setPassword("password");
 

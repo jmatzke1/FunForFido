@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <div class="wrapper">
 <header>
     <div class="navbar navbar-default navbar-static-top">
@@ -40,17 +41,18 @@
                     </li>
                     </c:if>
 
-                    <!-- todo: if and otherwise-->
+
                     <c:if test="${pageContext.request.isUserInRole('admin')}">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">old links <b class=" icon-angle-down"></b></a>
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Admin<b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="../oldLinks/copyright.jsp">Copyright</a></li>
-                            <li><a href="../oldLinks/components.jsp">components</a></li>
-                            <li><a href="../oldLinks/pricingbox.jsp">pricing box</a></li>
-                            <li><a href="../oldLinks/blog.jsp">blog</a></li>
-                            <li><a href="../oldLinks/portfolio.jsp">portfolio</a></li>
-                            <li><a href="../textMap.jsp">TestMap</a></li>
+                            <li><a href="../admin/copyright.jsp">Copyright</a></li>
+                            <li><a href="../admin/components.jsp">components</a></li>
+                            <li><a href="../admin/pricingbox.jsp">pricing box</a></li>
+                            <li><a href="../admin/blog.jsp">blog</a></li>
+                            <li><a href="../admin/portfolio.jsp">portfolio</a></li>
+                            <li><a href="../admin/admin.jsp">Admin</a></li>
+                            <li><a href="/logUserOut">Log out</a></li>
                         </ul>
                     </li>
                     </c:if>

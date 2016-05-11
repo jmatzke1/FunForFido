@@ -26,8 +26,6 @@
         <property name="state" column="state" type="string" />
         <property name="zipCode" column="ZipCode"
                   type="string"/>
-        <property name="password" column="password"
-                  type="string"/>
         <property name="emailAddress" column="emailAddress"
                   type="string"/>
     </class>

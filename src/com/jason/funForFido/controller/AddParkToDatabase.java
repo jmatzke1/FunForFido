@@ -50,14 +50,11 @@ public class AddParkToDatabase extends HttpServlet {
         parkEntity.setState(req.getParameter("state"));
         parkEntity.setZip(req.getParameter("zipCode"));
         parkEntity.setLatitude(latlon[0]);
-        parkEntity.setLatitude(latlon[1]);
-        log.info("+++++Adding User+++++: " + parkEntity);
+        parkEntity.setLongitude(latlon[1]);
         ParkDAOHibernate daoHibernate = new ParkDAOHibernate();
         daoHibernate.addPark(parkEntity);
 
         context.setAttribute("object",parkEntity);
-        // todo: add conformation page with info ?
-
 
         doGet(req,resp);
     }

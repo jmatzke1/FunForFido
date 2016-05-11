@@ -56,7 +56,6 @@ public class UsersDaoTest {
         int insertedUsersId = 0;
         UsersEntity usersEntity = new UsersEntity();
 
-        usersEntity.setMemberId(0);
         usersEntity.setUsername("newusername");
         usersEntity.setPassword("greatpassword");
 

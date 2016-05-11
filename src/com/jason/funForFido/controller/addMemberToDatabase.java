@@ -54,7 +54,7 @@ public class AddMemberToDatabase extends HttpServlet {
 
         // set user login
         UsersEntity user = new UsersEntity();
-        user.setMemberId(memberEntity.getMemberID());
+
         user.setUsername(req.getParameter("username"));
         user.setPassword(req.getParameter("password"));
         UsersDao usersDao = new UsersDao();
@@ -64,7 +64,7 @@ public class AddMemberToDatabase extends HttpServlet {
         UserRolesEntity userRolesEntity = new UserRolesEntity();
         userRolesEntity.setUsername(user.getUsername());
         UserRoleDao userRoleDao = new UserRoleDao();
-        //userRoleDao.addUserRole(userRolesEntity);
+        userRoleDao.addUserRole(userRolesEntity);
 
 
         // TODO: servlet context for display

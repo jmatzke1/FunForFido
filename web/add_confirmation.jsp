@@ -16,14 +16,8 @@
 <body
 <jsp:include page="template/header.jsp" />
 <jsp:include page="template/innerHeadline.jsp" />
-<div class="container">
-    ${object.parkName} was added to the database
-<p>Go to home page or search for a park</p>
-    <%--todo: add links--%>
-</div>
-
+<jsp:include page="template/confimation.jsp" />
 <jsp:include page="template/footer.jsp" />
 </body>
-
 <jsp:include page="template/jquery.jsp"/>
 </html>

@@ -59,24 +59,24 @@
 - [x] Research presentation and deliver
 
 ### Week 8 (3/8 - 3/14)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
 - [x] Review your [classmates' project ideas](https://github.com/MadJavaEntSpring2016/IndividualProject/blob/master/Projects.md) and let your instructor know if you have a preference 
 - [x] pick shell
 
 ### Week 9 (3/15 - 3/21)
 - [x] Weekly journal entry
-- [ ] Figure out logging problem
+- [X] Figure out logging problem
 - [x] template the shell html
 - [x] Start on servlets
 - [x] clone team project and start messing with it
 
 ### Week 10 (3/22 - 3/28)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
 - [ ] Work with maven build
-- [ ] Start with team project
-- [ ] Keep splitting off jsp's
-- [ ] Access all jsp through servlets
-- [ ] Keep looking for API's
+- [X] Start with team project
+- [X] Keep splitting off jsp's
+- [X] Access all jsp through servlets
+- [X] Keep looking for API's
  
 ### Week 11 (3/29 - 4/4)
 - [ ] Weekly journal entry
