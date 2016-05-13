@@ -47,7 +47,7 @@ I did not get a whole lot done this week with other assignments took priority.
 
 #### Week 7
 
-I did some assignemnt and 
+I did some assignemnt and worked more on node presentation.
 
 
 ---
@@ -92,7 +92,8 @@ I did some assignemnt and
 #### Week 14
 
 more templating and such
-------------------------
+
+---
 ---
 
 #### Week 15
@@ -107,5 +108,6 @@ I need to work on more tests
 
 This week I had a lot of trouble with openshift and getting the connection to the database.
 I had put in alot of work to debug the connection but finally got it to work.
------------------------------------------------------------------------------
+
+---
 ---

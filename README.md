@@ -10,9 +10,9 @@ to the member services.
  ##Techologies Used
  * MySql / Hibernate
  * Bootstrap
- * Google Web Services (places and geocoding for now)
+ * Google Web Services (places and geocoding for now)(independent research)
  * Log4J
- * Jenkins
+ * Jenkins (independent research)
  * Openshift
  * Javascript API
  * jQuery

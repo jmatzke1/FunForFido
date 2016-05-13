@@ -1,13 +1,38 @@
-
-| Date  | Work Completed | Hours Worked | Notes |
-| ------------- | ------------- | ------------- | ------------- |
-| 1/24  | Working on formatting markdown documents  |      2         |              |
-| 1/25  | The rest of assignments completed and reading for week |     3          |               |
-|1/30 | Working on openshift deployment | 2 | |
-| 2/3 | finishing all week 2 items | 4 | browsers and their caching|
-|2/8 | trying to finish all week 3 items| 2| |
-|2/9| getting all dependencies for project/ getting ready for code review| 3| |
-|2/12| feedback for code review jake and nancy, finding skeleton website | 2||
-|2/12| triyng to catch up everything /set up database| 3 | |
+- Week 1
+    - set up project(frameworks) and decisions - 2 hours
+    - get app on openshift
+- Week 2
+    - finished openshift and exercises - 3 hours
+- Week 3
+    - week 3 assignment - 3 hours
+    - get ready for code review - 2 hours
+- Week 4
+    - code review feedback - 1 hour
+- Week 5
+    - work on hibernate - 2 hours
+    - daos - 2 hours
+- Week 6
+    - assignments - 3 hours
+- Week 7
+    - individual presentation on Node.js - 4 hours
+- Week 8
+    - code reviews - 2 hours
+- Week 9
+    - debug logging - 1 hour
+- Week 10
+    -
+- Week 11
+    -
+- Week 12
+    -
+- Week 13
+    -
+- Week 14
+    -
+- Week 15
+    - Debugging - 12 hours +
+    - Individual Presentaiton + conference - 14 hours
+- Week 16
+    - Debugging - 12 hours +
 
  
