@@ -14,6 +14,15 @@ public class UserRolesEntity {
 
     private String username; //todo: serialize ?
     private String rolename = "member";
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     /**
        Get method for username

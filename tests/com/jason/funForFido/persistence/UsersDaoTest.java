@@ -40,6 +40,11 @@ public class UsersDaoTest {
 
     @Test
     public void testGetUser() throws Exception {
+        UsersEntity user = usersDao.getUser("Test2");
+
+        assertTrue(user.getUsername().equals("Test2"));
+       log.info("User found" + usersDao.getUser("Test2"));
+//        todo: returned null
 
     }
 
@@ -54,7 +59,6 @@ public class UsersDaoTest {
     public void testAddUser() throws Exception {
 
         int insertedUsersId = 0;
-        UsersEntity usersEntity = new UsersEntity();
 
         usersEntity.setUsername("newusername");
         usersEntity.setPassword("greatpassword");
@@ -74,5 +78,13 @@ public class UsersDaoTest {
     @Test
     public void testGetUsers() throws Exception {
 
+    }
+
+    @Test
+    public void testFindUserByUsername() {
+
+        UsersEntity foundUser = usersDao.findUserByUsername("Test2");
+
+        log.info("name" + foundUser.getUsername());
     }
 }

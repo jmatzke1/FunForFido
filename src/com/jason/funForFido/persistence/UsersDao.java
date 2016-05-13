@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.Query;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,22 +63,54 @@ public class UsersDao {
     /*
        todo: javadoc
     */
-    public UsersEntity getUser(int id) {
+    public UsersEntity getUser(String id) {
         UsersEntity user = null;
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = null;
 
         try {
             transaction = session.beginTransaction();
-            user = (UsersEntity) session.get(UsersEntity.class, id);
+
+            user = (UsersEntity) session.get(com.jason.funForFido.entity.UsersEntity.class, id);
+            log.info("User:" + user);
             transaction.commit();
-            log.info("Found user #" + id);
+            log.info("Found username: " + id);
         } catch (HibernateException e) {
             if (transaction != null) transaction.rollback();
             log.error(e);
         } finally {
             session.close();
         }
+
+        return user;
+    }
+
+    public UsersEntity findUserByUsername(String username) {
+
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = null;
+        UsersEntity user = null;
+
+        try {
+            tx = session.beginTransaction();
+
+            Query query = session.createQuery("from UsersEntity where username = :searchTerm");
+            query.setParameter("searchTerm", username);
+            user = (UsersEntity) query.list().get(0);
+
+
+        } catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            log.error(e);
+        } catch (IndexOutOfBoundsException e) {
+            log.debug("Username not found!");
+
+            return null;
+        }finally {
+
+            session.close();
+        }
+
 
         return user;
     }
@@ -116,14 +149,14 @@ public class UsersDao {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
         Transaction transaction = null;
-        Integer memberId = null;
+        Integer memberId = 0;
 
         try {
             transaction = session.beginTransaction();
-            log.info(session.save(user).getClass().getName());
-            memberId = (Integer) session.save(user);
+            log.info("print something " + session.save(user).getClass().getName());
+            memberId = (Integer) session.save("UserEntity", user);
             transaction.commit();
-            log.info("Added user: " + memberId);
+            log.info("Added user: " + user.getUsername());
 
         } catch (HibernateException e) {
             if (transaction != null) transaction.rollback();
@@ -132,6 +165,7 @@ public class UsersDao {
             session.close();
         }
         // TODO: keeps returning zero
+        log.info(memberId + "eeeeeeee");
         return memberId;
     }
 

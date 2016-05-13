@@ -4,7 +4,7 @@
 <body>
 <div id="wrapper">
 
-	<jsp:include page="template/header.jsp" />
+	<jsp:include page="${pageContext.request.contextPath}template/header.jsp" />
 	<section id="inner-headline">
 
 	<div class="container">
@@ -127,9 +127,9 @@
 		</div>
 	</div>
 	</section>
-<jsp:include page="template/footer.jsp" />
+<jsp:include page="${pageContext.request.contextPath}template/footer.jsp" />
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<jsp:include page="template/jquery.jsp" />
+<jsp:include page="${pageContext.request.contextPath}template/jquery.jsp" />
 </body>
 </html>

@@ -72,26 +72,37 @@
 
 ### Week 10 (3/22 - 3/28)
 - [X] Weekly journal entry
-- [ ] Work with maven build
 - [X] Start with team project
 - [X] Keep splitting off jsp's
 - [X] Access all jsp through servlets
 - [X] Keep looking for API's
  
 ### Week 11 (3/29 - 4/4)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
+- [X] Finish Servlets
+- [x] Work on team project class
 
 ### Week 12 (4/5 - 4/11)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
+- [x] testing team project classes
  
 ### Week 13 (4/12 - 4/18)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
+- [x] get data in database from form
+- [x] team presentation
 
 ### Week 14 (4/19 - 4/25)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
+- [x] Adding web service
+- [x] test links for website
  
 ### Week 15 (4/26 - 5/2)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
+- [X] Fun with openshift
 
 ### Week 16 (5/3 - 5/9)
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
+- [X] Fun with openshift
+- [x] lots of debugging
+- [x] presentation
+- [x] individual presentation

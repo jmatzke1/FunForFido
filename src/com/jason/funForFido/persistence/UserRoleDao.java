@@ -1,6 +1,7 @@
 package com.jason.funForFido.persistence;
 
 import com.jason.funForFido.entity.UserRolesEntity;
+import com.jason.funForFido.entity.UserRolesEntityPK;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -11,18 +12,21 @@ public class UserRoleDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
-    /*
-        todo: javadoc
+
+    /**
+     * This method adds a role to the username for authenication
+     *
+     * @param userRole role of the new member
      */
     public void addUserRole(UserRolesEntity userRole) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
         Transaction transaction = null;
-        String username = null;
+        UserRolesEntityPK username;
 
         try {
             transaction = session.beginTransaction();
-            username = (String)session.save(userRole);
+            username = (UserRolesEntityPK)session.save(userRole);
             transaction.commit();
             log.info("Added employee: " + username);
 

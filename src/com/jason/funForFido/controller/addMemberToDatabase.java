@@ -8,6 +8,8 @@ import com.jason.funForFido.persistence.UserRoleDao;
 import com.jason.funForFido.persistence.UsersDao;
 import org.apache.log4j.Logger;
 
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -37,14 +39,14 @@ public class AddMemberToDatabase extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
+        ServletContext context = getServletContext();
         MemberEntity memberEntity = new MemberEntity();
+        UsersEntity user = new UsersEntity();
         //Set all member info
         memberEntity.setMemberID(0);
         memberEntity.setFirstName(req.getParameter("FirstName"));
         memberEntity.setLastName(req.getParameter("LastName"));
         memberEntity.setEmailAddress(req.getParameter("emailAddress"));
-        memberEntity.setLastName(req.getParameter("username"));
-        memberEntity.setPassword(req.getParameter("password"));
         memberEntity.setAddress(req.getParameter("address"));
         memberEntity.setCity(req.getParameter("city"));
         memberEntity.setState(req.getParameter("state"));
@@ -53,23 +55,30 @@ public class AddMemberToDatabase extends HttpServlet {
         daoHibernate.addMember(memberEntity);
 
         // set user login
-        UsersEntity user = new UsersEntity();
-
         user.setUsername(req.getParameter("username"));
         user.setPassword(req.getParameter("password"));
         UsersDao usersDao = new UsersDao();
         usersDao.addUser(user);
-
+//
         //add role
         UserRolesEntity userRolesEntity = new UserRolesEntity();
         userRolesEntity.setUsername(user.getUsername());
         UserRoleDao userRoleDao = new UserRoleDao();
         userRoleDao.addUserRole(userRolesEntity);
 
+        context.setAttribute("member", memberEntity);
+        context.setAttribute("user", user);
 
-        // TODO: servlet context for display
-        String url = "index.jsp";
+        doGet(req,resp);
+    }
 
-        resp.sendRedirect(url);
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        String url = "/add_member_confirmation.jsp";
+
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
+
+        dispatcher.forward(request, response);
     }
 }

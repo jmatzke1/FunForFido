@@ -9,14 +9,14 @@
   Time: 11:09 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <!-- todo: finish about content -->
 <html>
 <jsp:include page="template/head.jsp" />
 <body
 <jsp:include page="template/header.jsp" />
 <jsp:include page="template/innerHeadline.jsp" />
-<jsp:include page="template/confimation.jsp" />
+<jsp:include page="template/park_confimation.jsp" />
 <jsp:include page="template/footer.jsp" />
 </body>
 <jsp:include page="template/jquery.jsp"/>

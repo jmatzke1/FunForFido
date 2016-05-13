@@ -5,6 +5,7 @@
   Time: 2:35 PM
   To change this template use File | Settings | File Templates.
 --%>
+<jsp:include page="solidLine.jsp" />
 <div class="container">
     <FORM class="text-center" ACTION="j_security_check" METHOD="POST">
         <TABLE>
@@ -15,6 +16,7 @@
     </FORM>
     <p>Not a member? Click <a href="/addNewMember">here</a> to sign up</p>
 </div>
+<jsp:include page="solidLine.jsp" />
 
 <!-- TODO: check for validation in the database , make unique in database -->
 <!-- TODO: maybe change authenication -->

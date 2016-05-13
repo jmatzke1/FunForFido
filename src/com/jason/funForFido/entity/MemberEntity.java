@@ -10,13 +10,12 @@ import javax.persistence.*;
 @Table(name = "Member", schema = "funforfido") //, catalog = ""
 public class MemberEntity {
     private int memberID;
-    private String address = "address";
+    private String address;
     private String city;
     private String state;
     private String zipCode;
     private String firstName;
     private String lastName;
-    private String password;
     private String emailAddress;
 
     @Id
@@ -90,16 +89,6 @@ public class MemberEntity {
     }
 
     @Basic
-    @Column(name = "password", nullable = true, length = 30)
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Basic
     @Column(name = "emailAddress", nullable = false, length = 60)
     public String getEmailAddress() {
         return emailAddress;
@@ -123,7 +112,6 @@ public class MemberEntity {
         if (zipCode != null ? !zipCode.equals(that.zipCode) : that.zipCode != null) return false;
         if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
         if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
-        if (password != null ? !password.equals(that.password) : that.password != null) return false;
         if (emailAddress != null ? !emailAddress.equals(that.emailAddress) : that.emailAddress != null) return false;
 
         return true;
@@ -138,7 +126,6 @@ public class MemberEntity {
         result = 31 * result + (zipCode != null ? zipCode.hashCode() : 0);
         result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
         result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + (emailAddress != null ? emailAddress.hashCode() : 0);
         return result;
     }

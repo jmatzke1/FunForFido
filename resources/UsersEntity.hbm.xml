@@ -7,8 +7,12 @@
         <meta attribute="class-description">
             The class has user details
         </meta>
-        <id name="username" type="string" column="username">
+        <id name="id" type="int"
+            column="id">
+            <generator class="native"/>
         </id>
+        <property name="username" type="string" column="username">
+        </property>
         <property name="password" column="password" type="string" />
     </class>
 </hibernate-mapping>

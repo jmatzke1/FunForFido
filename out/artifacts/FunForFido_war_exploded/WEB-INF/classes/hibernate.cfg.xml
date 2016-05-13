@@ -4,15 +4,26 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="dialect">
-            org.hibernate.dialect.MySQL5Dialect
-        </property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/funforfido</property>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <!--<property name="connection.username">-->
+            <!--adminQHNVyxl-->
+        <!--</property>-->
+        <!--<property name="connection.password">-->
+            <!--MdtVkrl94a9c-->
+        <!--</property>-->
+        <!--<property name="connection.url">-->
+            <!--jdbc:mysql://127.9.156.2:3306/funforfido-->
+        <!--</property>-->
         <property name="connection.username">root</property>
         <property name="connection.password">password</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/funforfido</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
         <mapping resource="MemberEntity.hbm.xml" />
         <mapping resource="ParkEntity.hbm.xml" />
+        <!--<mapping resource="UserRoles.hbm.xml" />-->
+        <mapping resource="UsersEntity.hbm.xml" />
+
         <mapping class="com.jason.funForFido.entity.MemberEntity"/>
         <mapping class="com.jason.funForFido.entity.ParkEntity"/>
         <mapping class="com.jason.funForFido.entity.UsersEntity"/>

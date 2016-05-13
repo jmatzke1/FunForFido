@@ -15,7 +15,7 @@
     <div class="col-lg-4">
         <h4>Blockquote and cite</h4>
         <blockquote>
-            <i class="icon-quote-left icon-2x"></i> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <cite>John doe, Awesome Inc.</cite>
+            <i class="icon-quote-left icon-2x"></i> I am obessed with animals. This page is here to help everyone's four-legged. <cite>Jason Matzke, my page</cite>
         </blockquote>
     </div>
     <div class="col-lg-4">

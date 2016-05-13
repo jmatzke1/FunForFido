@@ -19,8 +19,9 @@ public class LogUserOut extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         request.logout();
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("/index.jsp");
     }
 
 }

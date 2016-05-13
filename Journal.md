@@ -40,6 +40,7 @@ I did a little research on my topic. I may have trouble with it because of the c
 ---
 
 #### Week 6 
+I did not get a whole lot done this week with other assignments took priority.
 
 ---
 ---

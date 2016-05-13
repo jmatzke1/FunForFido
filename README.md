@@ -10,19 +10,17 @@ to the member services.
  ##Techologies Used
  * MySql / Hibernate
  * Bootstrap
- * Google Web Services
+ * Google Web Services (places and geocoding for now)
  * Log4J
  * Jenkins
  * Openshift
  * Javascript API
  * jQuery
  
- ## Contiuning Add-ons to application
- * JSF
- 
- 
- ##Design
- [Home Page] (https://github.com/jmatzke1/JasonMatzkeEnterpriseIndividualProject/blob/master/images/design.md)
+ ## Contiuning possible future add-ons to application
+ * JSF - newer version of jsp's
+ * mongoDb - very easy to store responses if I need to
+ * store image paths in database
  
  ##Project Plan
  [Project Plan](https://github.com/jmatzke1/FunForFido/blob/master/ProjectPlan.md)

@@ -3,7 +3,10 @@ package com.jason.funForFido.persistence;
 
 import com.jason.funForFido.entity.MemberEntity;
 import org.apache.log4j.Logger;
+import org.junit.Before;
 import org.junit.Test;
+
+import java.util.List;
 
 import static org.junit.Assert.assertTrue;
 
@@ -14,32 +17,54 @@ import static org.junit.Assert.assertTrue;
  */
 public class MemberDaoHibernateTest {
 
-    private final Logger logger = Logger.getLogger(this.getClass());
+    private final Logger log = Logger.getLogger(this.getClass());
+    MemberDAOHibernate dao;
+    MemberEntity member;
+
+    @Before
+    public void setUp() {
+        dao = new MemberDAOHibernate();
+        member = new MemberEntity();
+        member.setLastName("TestLast");
+        member.setFirstName("TestFirst");
+        member.setAddress("TestAddress");
+        member.setCity("Testcity");
+        member.setState("TestState");
+        member.setZipCode("TestZip");
+        member.setEmailAddress("Testmyemail");
+    }
+
 
     @Test
     public void testAddMember() throws Exception {
 
-    MemberDAOHibernate dao = new MemberDAOHibernate();
     int insertedID;
-
-    MemberEntity member = new MemberEntity();
-    member.setLastName("TestLast");
-    member.setFirstName("TestFirst");
-    member.setAddress("TestAddress");
-    member.setCity("Testcity");
-    member.setState("TestState");
-    member.setZipCode("TestZip");
-    member.setEmailAddress("Testmyemail");
-
-    logger.info(member.getFirstName());
-
     insertedID = dao.addMember(member);
-
+    log.info( "++ " + member.getFirstName() + "++");
+    log.info("ID inserted: " + insertedID);
     assertTrue("Member was added: " + member.getMemberID(), insertedID > 0);
 
     dao.deleteMember(member);
 
     }
+
+    @Test
+    public void testUpdateMember() {
+
+        dao.updateMember(member);
+        assertTrue(member.getZipCode().equals(""));
+
+    }
+
+    @Test
+    public void testGetAllMembers() throws Exception {
+
+        List<MemberEntity> memberEntityList = dao.getAllMembers();
+        log.info("++" + memberEntityList + "++");
+        assertTrue(memberEntityList.size() > 0);
+
+    }
+
 
 
 }

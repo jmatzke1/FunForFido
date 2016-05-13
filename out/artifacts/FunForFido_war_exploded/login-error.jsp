@@ -19,8 +19,5 @@
 <jsp:include page="template/footer.jsp" />
 </body>
 
-
-<jsp:include page="template/footer.jsp" />
-
 <jsp:include page="template/jquery.jsp"/>
 </html>

@@ -11,8 +11,16 @@ import javax.persistence.*;
 public class UsersEntity {
     private String username;
     private String password;
-
+    private  int id;
     @Id
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Column(name = "username", nullable = false, length = 60)
     public String getUsername() {
         return username;

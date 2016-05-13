@@ -16,15 +16,15 @@ import java.io.IOException;
 
 
 /**
+ *@author Jason Matzke
  *
+ * This class enters all the information from the form and uses the zip code to get the lat long of the location.
  */
 @WebServlet(name = "addParkToDatabase", urlPatterns = { "/addParkToDatabase" } )
 
 public class AddParkToDatabase extends HttpServlet {
 
     private final Logger log = Logger.getLogger(this.getClass());
-
-    // todo: same servlet ? for doPost and doGet
 
 
     @Override
@@ -35,8 +35,11 @@ public class AddParkToDatabase extends HttpServlet {
         String[] latlon = new String[0];
 
         try {
+
             latlon = LatAndLongPincode.getLatLongPositions(req.getParameter("zipCode"));
+
         } catch (Exception e) {
+
             log.error(e);
         }
 
@@ -69,7 +72,7 @@ public class AddParkToDatabase extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        String url = "/add_confirmation.jsp";
+        String url = "/add_park_confirmation.jsp";
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
 

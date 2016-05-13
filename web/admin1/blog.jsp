@@ -7,15 +7,15 @@
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
 <!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}css/bootstrap.min.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}css/jcarousel.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}css/flexslider.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}css/style.css" rel="stylesheet" />
 
 
 <!-- Theme skin -->
-<link href="skins/default.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}skins/default.css" rel="stylesheet" />
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -47,7 +47,7 @@
 							<div class="post-heading">
 								<h3><a href="#">This is an example of standard post format</a></h3>
 							</div>
-							<img src="img/dummies/blog/img1.jpg" alt="" />
+							<img src="${pageContext.request.contextPath}img/dummies/blog/img1.jpg" alt="" />
 						</div>
 						<p>
 							 Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet perfecto ad qui, est rebum nulla argumentum ei. Fierent adipisci iracundia est ei, usu timeam persius ea. Usu ea justo malis, pri quando everti electram ei, ex homero omittam salutatus sed.
@@ -71,13 +71,13 @@
 							<div id="post-slider" class="flexslider">
 								<ul class="slides">
 									<li>
-									<img src="img/slides/1.jpg" alt="" />
+									<img src="${pageContext.request.contextPath}img/slides/1.jpg" alt="" />
 									</li>
 									<li>
-									<img src="img/slides/2.jpg" alt="" />
+									<img src="${pageContext.request.contextPath}img/slides/2.jpg" alt="" />
 									</li>
 									<li>
-									<img src="img/slides/3.jpg" alt="" />
+									<img src="${pageContext.request.contextPath}img/slides/3.jpg" alt="" />
 									</li>
 								</ul>
 							</div>
@@ -166,21 +166,21 @@
 					<h5 class="widgetheading">Latest posts</h5>
 					<ul class="recent">
 						<li>
-						<img src="img/dummies/blog/65x65/thumb1.jpg" class="pull-left" alt="" />
+						<img src="${pageContext.request.contextPath}img/dummies/blog/65x65/thumb1.jpg" class="pull-left" alt="" />
 						<h6><a href="#">Lorem ipsum dolor sit</a></h6>
 						<p>
 							 Mazim alienum appellantur eu cu ullum officiis pro pri
 						</p>
 						</li>
 						<li>
-						<a href="#"><img src="img/dummies/blog/65x65/thumb2.jpg" class="pull-left" alt="" /></a>
+						<a href="#"><img src="${pageContext.request.contextPath}img/dummies/blog/65x65/thumb2.jpg" class="pull-left" alt="" /></a>
 						<h6><a href="#">Maiorum ponderum eum</a></h6>
 						<p>
 							 Mazim alienum appellantur eu cu ullum officiis pro pri
 						</p>
 						</li>
 						<li>
-						<a href="#"><img src="img/dummies/blog/65x65/thumb3.jpg" class="pull-left" alt="" /></a>
+						<a href="#"><img src="${pageContext.request.contextPath}img/dummies/blog/65x65/thumb3.jpg" class="pull-left" alt="" /></a>
 						<h6><a href="#">Et mei iusto dolorum</a></h6>
 						<p>
 							 Mazim alienum appellantur eu cu ullum officiis pro pri
@@ -282,16 +282,16 @@
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/google-code-prettify/prettify.js"></script>
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
+<script src="${pageContext.request.contextPath}js/jquery.js"></script>
+<script src="${pageContext.request.contextPath}js/jquery.easing.1.3.js"></script>
+<script src="${pageContext.request.contextPath}js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}js/jquery.fancybox.pack.js"></script>
+<script src="${pageContext.request.contextPath}js/jquery.fancybox-media.js"></script>
+<script src="${pageContext.request.contextPath}js/google-code-prettify/prettify.js"></script>
+<script src="${pageContext.request.contextPath}js/portfolio/jquery.quicksand.js"></script>
+<script src="${pageContext.request.contextPath}js/portfolio/setting.js"></script>
+<script src="${pageContext.request.contextPath}js/jquery.flexslider.js"></script>
+<script src="${pageContext.request.contextPath}js/animate.js"></script>
+<script src="${pageContext.request.contextPath}js/custom.js"></script>
 </body>
 </html>

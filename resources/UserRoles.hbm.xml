@@ -4,17 +4,14 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.jason.funForFido.entity.UserRolesEntity" table="users_roles"
+    <class name="com.jason.funForFido.entity.UserRolesEntity" table="user_roles"
            schema="funforfido">
-        <composite-id mapped="true"
-                      class="com.jason.funForFido.entity.UserRolesEntityPK">
-            <key-property name="username">
-                <column name="email_address" sql-type="varchar(30)"
-                        length="30"/>
-            </key-property>
-            <key-property name="rolename">
-                <column name="role" sql-type="varchar(30)" length="30"/>
-            </key-property>
-        </composite-id>
+        <id name="id" type="int"
+            column="id">
+            <generator class="native"/>
+        </id>
+        <property name="username" type="string" column="username">
+        </property>
+        <property name="rolename" column="rolename" type="string" />
     </class>
 </hibernate-mapping>

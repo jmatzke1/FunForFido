@@ -2,6 +2,7 @@ package com.jason.funForFido.persistence;
 
 import com.jason.funForFido.entity.ParkEntity;
 import org.apache.log4j.Logger;
+import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -23,7 +24,11 @@ public class    ParkDAOHibernate {
 
         List<ParkEntity> parks = new ArrayList<ParkEntity>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
+
         parks = (ArrayList<ParkEntity>)session.createCriteria(ParkEntity.class).list();
+
+        Criteria cr = session.createCriteria(ParkEntity.class);
+        parks = cr.list();
 
         return parks;
 
@@ -35,7 +40,9 @@ public class    ParkDAOHibernate {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         return (ParkEntity)session.get(ParkEntity.class, id);
+
     }
+
     /*
        todo: javadoc
     */
@@ -64,4 +71,22 @@ public class    ParkDAOHibernate {
 
         return parkID;
     }
+
+    public void deletePark(ParkEntity parkEntity) {
+
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = null;
+        try{
+            tx = session.beginTransaction();
+            parkEntity = (ParkEntity) session.get(ParkEntity.class, parkEntity.getParkId());
+            session.delete(parkEntity);
+            tx.commit();
+        }catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            e.printStackTrace();
+        }finally {
+            session.close();
+        }
+    }
+
 }

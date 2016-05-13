@@ -1,459 +1,356 @@
-2016-05-09 13:57:06,042 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 13:57:06,051 9    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 13:57:06,053 11   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 13:57:06,054 12   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 13:57:06,074 32   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 13:57:06,074 32   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 13:57:06,140 98   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 13:57:06,217 175  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 13:57:06,244 202  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 13:57:06,301 259  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 13:57:06,309 267  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 13:57:06,309 267  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 13:57:06,310 268  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 13:57:06,310 268  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 13:57:06,808 766  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 13:57:06,946 904  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 13:57:06,950 908  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 13:57:07,210 1168 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - *************************
-2016-05-09 13:57:07,210 1168 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID: 14
-2016-05-09 13:58:06,997 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 13:58:07,001 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 13:58:07,002 5    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 13:58:07,003 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 13:58:07,015 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 13:58:07,015 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 13:58:07,065 68   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 13:58:07,105 108  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 13:58:07,124 127  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 13:58:07,146 149  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 13:58:07,150 153  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 13:58:07,150 153  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 13:58:07,151 154  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 13:58:07,151 154  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 13:58:07,502 505  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 13:58:07,673 676  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 13:58:07,676 679  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 13:58:07,994 997  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
-2016-05-09 13:58:07,994 997  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'Email' for key 'Member_emailAddress_uindex'
-2016-05-09 13:58:07,996 999  [main] ERROR com.jason.funForFido.persistence.MemberDAOHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
-2016-05-09 13:58:07,997 1000 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - *************************
-2016-05-09 13:58:07,997 1000 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID: 0
-2016-05-09 16:26:34,657 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 16:26:34,664 7    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 16:26:34,665 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 16:26:34,667 10   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 16:26:34,686 29   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 16:26:34,686 29   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 16:26:34,742 85   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 16:26:34,783 126  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 16:26:34,804 147  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 16:26:34,840 183  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 16:26:34,843 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 16:26:34,843 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 16:26:34,844 187  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 16:26:34,844 187  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 16:26:35,329 672  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 16:26:35,498 841  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 16:26:35,503 846  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 16:26:35,770 1113 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - *************************
-2016-05-09 16:26:35,770 1113 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID: 16
-2016-05-09 20:47:26,544 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 20:47:26,552 8    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 20:47:26,554 10   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 20:47:26,556 12   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 20:47:26,577 33   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 20:47:26,577 33   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 20:47:26,634 90   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 20:47:26,680 136  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 20:47:26,704 160  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 20:47:26,737 193  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 20:47:26,742 198  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 20:47:26,742 198  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 20:47:26,742 198  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 20:47:26,742 198  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 20:47:27,172 628  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 20:47:27,313 769  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 20:47:27,317 773  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 20:47:27,549 1005 [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added employee: 0
-2016-05-09 21:00:29,953 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:00:29,959 6    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:00:29,960 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:00:29,961 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:00:29,984 31   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:00:29,984 31   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:00:30,035 82   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:00:30,074 121  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:00:30,093 140  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:00:30,126 173  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:00:30,130 177  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:00:30,130 177  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:00:30,131 178  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:00:30,131 178  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:00:30,482 529  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:00:30,630 677  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:00:30,635 682  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:00:30,909 956  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added employee: 0
-2016-05-09 21:00:30,910 957  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:02:15,355 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:02:15,361 6    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:02:15,363 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:02:15,364 9    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:02:15,377 22   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:02:15,378 23   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:02:15,425 70   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:02:15,475 120  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:02:15,494 139  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:02:15,523 168  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:02:15,528 173  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:02:15,528 173  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:02:15,529 174  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:02:15,529 174  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:02:15,866 511  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:02:15,996 641  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:02:15,999 644  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:02:16,270 915  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 21:02:16,271 916  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:04:29,210 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:04:29,214 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:04:29,216 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:04:29,217 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:04:29,228 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:04:29,228 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:04:29,277 67   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:04:29,318 108  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:04:29,337 127  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:04:29,360 150  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:04:29,364 154  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:04:29,364 154  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:04:29,364 154  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:04:29,364 154  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:04:29,660 450  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:04:29,831 621  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:04:29,836 626  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:04:30,063 853  [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.MappingException: Unknown entity: java.lang.Integer
-2016-05-09 21:04:30,064 854  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:07:33,988 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:07:33,992 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:07:33,993 5    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:07:33,994 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:07:34,007 19   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:07:34,007 19   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:07:34,054 66   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:07:34,099 111  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:07:34,122 134  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:07:34,146 158  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:07:34,150 162  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:07:34,150 162  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:07:34,150 162  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:07:34,150 162  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:07:34,530 542  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:07:34,681 693  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:07:34,685 697  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:07:34,931 943  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 21:07:34,932 944  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:16:24,304 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:16:24,309 5    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:16:24,311 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:16:24,312 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:16:24,331 27   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:16:24,331 27   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:16:24,384 80   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:16:24,428 124  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:16:24,446 142  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:16:24,481 177  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:16:24,485 181  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:16:24,485 181  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:16:24,486 182  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:16:24,486 182  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:16:24,893 589  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:16:25,043 739  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:16:25,049 745  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:16:25,306 1002 [main] INFO  com.jason.funForFido.persistence.UsersDao  - Session0
-2016-05-09 21:16:25,328 1024 [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 21:16:25,329 1025 [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:18:49,488 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:18:49,494 6    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:18:49,496 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:18:49,497 9    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:18:49,517 29   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:18:49,517 29   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:18:49,570 82   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:18:49,613 125  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:18:49,634 146  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:18:49,667 179  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:18:49,671 183  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:18:49,671 183  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:18:49,671 183  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:18:49,671 183  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:18:50,103 615  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:18:50,234 746  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:18:50,244 756  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:18:50,514 1026 [main] INFO  com.jason.funForFido.persistence.UsersDao  - java.lang.Integer
-2016-05-09 21:18:50,535 1047 [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 21:18:50,536 1048 [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:41:30,243 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:41:30,249 6    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:41:30,250 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:41:30,251 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:41:30,272 29   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:41:30,272 29   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:41:30,323 80   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:41:30,364 121  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:41:30,387 144  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:41:30,424 181  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:41:30,429 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:41:30,429 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:41:30,429 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:41:30,430 187  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:41:30,753 510  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:41:30,899 656  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:41:30,903 660  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:41:31,175 932  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - [com.jason.funForFido.entity.UsersEntity@5c10d70c, com.jason.funForFido.entity.UsersEntity@674cd22d, com.jason.funForFido.entity.UsersEntity@4be4a5dc, com.jason.funForFido.entity.UsersEntity@30b0d5c1, com.jason.funForFido.entity.UsersEntity@30b0d9a2, com.jason.funForFido.entity.UsersEntity@30b0e163, com.jason.funForFido.entity.UsersEntity@30b0e164, com.jason.funForFido.entity.UsersEntity@30b0e165]
-2016-05-09 21:54:44,200 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:54:44,205 5    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:54:44,206 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:54:44,207 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:54:44,218 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:54:44,218 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:54:44,264 64   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:54:44,305 105  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:54:44,328 128  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:54:44,353 153  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:54:44,357 157  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:54:44,358 158  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:54:44,358 158  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:54:44,358 158  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:54:44,666 466  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:54:44,802 602  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:54:44,806 606  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:54:45,070 870  [main] INFO  com.jason.funForFido.persistence.UsersDao  - java.lang.Integer
-2016-05-09 21:54:45,091 891  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 21:54:45,091 891  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:54:45,093 893  [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener  - HHH000114: Handling transient entity in delete processing
-2016-05-09 21:54:45,093 893  [main] INFO  com.jason.funForFido.persistence.UsersDao  - employee deleted
-2016-05-09 21:55:12,894 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:55:12,898 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:55:12,899 5    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:55:12,900 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:55:12,911 17   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:55:12,911 17   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:55:12,963 69   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:55:13,006 112  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:55:13,028 134  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:55:13,054 160  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:55:13,058 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:55:13,058 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:55:13,058 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:55:13,058 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:55:13,366 472  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:55:13,498 604  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:55:13,503 609  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:55:13,738 844  [main] INFO  com.jason.funForFido.persistence.UsersDao  - java.lang.Integer
-2016-05-09 21:55:13,760 866  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 21:55:13,761 867  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:55:13,763 869  [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener  - HHH000114: Handling transient entity in delete processing
-2016-05-09 21:55:13,763 869  [main] INFO  com.jason.funForFido.persistence.UsersDao  - employee deleted
-2016-05-09 21:55:26,383 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 21:55:26,387 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 21:55:26,388 5    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 21:55:26,389 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 21:55:26,401 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 21:55:26,401 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 21:55:26,447 64   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 21:55:26,488 105  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 21:55:26,505 122  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 21:55:26,528 145  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 21:55:26,531 148  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 21:55:26,532 149  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 21:55:26,532 149  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 21:55:26,532 149  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 21:55:26,839 456  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 21:55:26,970 587  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 21:55:26,973 590  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 21:55:27,184 801  [main] INFO  com.jason.funForFido.persistence.UsersDao  - java.lang.Integer
-2016-05-09 21:55:27,207 824  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 21:55:27,208 825  [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - added memberID: 0
-2016-05-09 21:55:27,210 827  [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener  - HHH000114: Handling transient entity in delete processing
-2016-05-09 21:55:27,211 828  [main] INFO  com.jason.funForFido.persistence.UsersDao  - employee deleted
-2016-05-09 22:13:04,283 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 22:13:04,290 7    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 22:13:04,291 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 22:13:04,292 9    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 22:13:04,305 22   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 22:13:04,305 22   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 22:13:04,350 67   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 22:13:04,391 108  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 22:13:04,412 129  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 22:13:04,436 153  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 22:13:04,440 157  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 22:13:04,440 157  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 22:13:04,440 157  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 22:13:04,440 157  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 22:13:04,757 474  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 22:13:04,900 617  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 22:13:04,903 620  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 22:13:05,108 825  [main] INFO  com.jason.funForFido.persistence.UsersDao  - java.lang.Integer
-2016-05-09 22:13:05,133 850  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 22:13:05,136 853  [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener  - HHH000114: Handling transient entity in delete processing
-2016-05-09 22:13:35,254 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-09 22:13:35,258 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-09 22:13:35,259 5    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-09 22:13:35,260 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-09 22:13:35,273 19   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-09 22:13:35,273 19   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-09 22:13:35,319 65   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-09 22:13:35,364 110  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-09 22:13:35,382 128  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-09 22:13:35,406 152  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-09 22:13:35,410 156  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-09 22:13:35,410 156  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-09 22:13:35,410 156  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-09 22:13:35,410 156  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-09 22:13:35,703 449  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-09 22:13:35,834 580  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-09 22:13:35,837 583  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-09 22:13:36,063 809  [main] INFO  com.jason.funForFido.persistence.UsersDao  - java.lang.Integer
-2016-05-09 22:13:36,085 831  [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: 0
-2016-05-09 22:13:36,088 834  [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener  - HHH000114: Handling transient entity in delete processing
-2016-05-10 00:03:37,889 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-10 00:03:37,898 9    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-10 00:03:37,900 11   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-10 00:03:37,901 12   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-10 00:03:37,925 36   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-10 00:03:37,926 37   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-10 00:03:37,980 91   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-10 00:03:38,030 141  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-10 00:03:38,052 163  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-10 00:03:38,089 200  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-10 00:03:38,093 204  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-10 00:03:38,094 205  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-10 00:03:38,094 205  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-10 00:03:38,094 205  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-10 00:03:38,515 626  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-10 00:03:38,733 844  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-10 00:03:38,741 852  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-10 00:04:45,507 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-10 00:04:45,511 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-10 00:04:45,512 5    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-10 00:04:45,513 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-10 00:04:45,525 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-10 00:04:45,525 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-10 00:04:45,572 65   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-10 00:04:45,613 106  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-10 00:04:45,639 132  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-10 00:04:45,665 158  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-10 00:04:45,671 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-10 00:04:45,671 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-10 00:04:45,671 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-10 00:04:45,671 164  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-10 00:04:46,070 563  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-10 00:04:46,257 750  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-10 00:04:46,261 754  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-10 00:06:00,759 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
-2016-05-10 00:06:00,879 120  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-10 00:06:00,884 125  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-10 00:06:00,885 126  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-10 00:06:00,886 127  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-10 00:06:00,902 143  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-10 00:06:00,902 143  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-10 00:06:00,952 193  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-10 00:06:00,994 235  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-10 00:06:01,017 258  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-10 00:06:01,041 282  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-10 00:06:01,044 285  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-10 00:06:01,044 285  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-10 00:06:01,045 286  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-10 00:06:01,045 286  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-10 00:06:01,368 609  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-10 00:06:01,530 771  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-10 00:06:01,534 775  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-10 00:06:01,841 1082 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
-2016-05-10 00:06:01,842 1083 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'Testmyemail' for key 'Member_emailAddress_uindex'
-2016-05-10 00:06:01,847 1088 [main] ERROR com.jason.funForFido.persistence.MemberDAOHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
-2016-05-10 00:06:02,176 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
-2016-05-10 00:06:02,299 123  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-10 00:06:02,305 129  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-10 00:06:02,306 130  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-10 00:06:02,307 131  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-10 00:06:02,321 145  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-10 00:06:02,321 145  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-10 00:06:02,388 212  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-10 00:06:02,427 251  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-10 00:06:02,451 275  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-10 00:06:02,489 313  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-10 00:06:02,494 318  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-10 00:06:02,494 318  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-10 00:06:02,494 318  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-10 00:06:02,494 318  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-10 00:06:03,019 843  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-10 00:06:03,184 1008 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-10 00:06:03,186 1010 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-10 00:06:03,426 1250 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
-2016-05-10 00:06:03,426 1250 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'Testmyemail' for key 'Member_emailAddress_uindex'
-2016-05-10 00:06:03,427 1251 [main] ERROR com.jason.funForFido.persistence.MemberDAOHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
-2016-05-10 00:08:17,741 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
-2016-05-10 00:08:17,847 106  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-10 00:08:17,850 109  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-10 00:08:17,851 110  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-10 00:08:17,852 111  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-10 00:08:17,865 124  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-10 00:08:17,866 125  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-10 00:08:17,912 171  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-10 00:08:17,953 212  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-10 00:08:17,977 236  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-10 00:08:18,018 277  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-10 00:08:18,022 281  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-10 00:08:18,022 281  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-10 00:08:18,023 282  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-10 00:08:18,023 282  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-10 00:08:18,342 601  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-10 00:08:18,511 770  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-10 00:08:18,515 774  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-10 00:09:01,535 1    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
-2016-05-10 00:09:01,643 109  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-10 00:09:01,647 113  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-10 00:09:01,648 114  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-10 00:09:01,649 115  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-10 00:09:01,661 127  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-10 00:09:01,661 127  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-10 00:09:01,706 172  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-10 00:09:01,747 213  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-10 00:09:01,770 236  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-10 00:09:01,798 264  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-10 00:09:01,801 267  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-10 00:09:01,801 267  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-10 00:09:01,802 268  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-10 00:09:01,802 268  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-10 00:09:02,118 584  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-10 00:09:02,295 761  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-10 00:09:02,299 765  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-10 00:26:37,251 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
-2016-05-10 00:26:37,364 113  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
-2016-05-10 00:26:37,368 117  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
-2016-05-10 00:26:37,370 119  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
-2016-05-10 00:26:37,371 120  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
-2016-05-10 00:26:37,383 132  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-05-10 00:26:37,383 132  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-05-10 00:26:37,431 180  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
-2016-05-10 00:26:37,482 231  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
-2016-05-10 00:26:37,521 270  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
-2016-05-10 00:26:37,553 302  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2016-05-10 00:26:37,556 305  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
-2016-05-10 00:26:37,556 305  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
-2016-05-10 00:26:37,557 306  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
-2016-05-10 00:26:37,557 306  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
-2016-05-10 00:26:37,892 641  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2016-05-10 00:26:38,188 937  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-05-10 00:26:38,197 946  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
-2016-05-10 16:06:04,737 1    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?[Ljava.lang.String;@ed17bee
-2016-05-10 16:06:47,968 0    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?40.4562037
-2016-05-10 16:10:28,318 0    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?43.1438143, -89.3511495
-2016-05-10 16:11:22,179 0    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?43.0730517, -89.4012302
-2016-05-10 16:11:47,496 0    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?43.1019300, -89.3401030
-2016-05-10 16:12:49,225 0    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?43.1019300, -89.3401030
-2016-05-10 16:12:49,226 1    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?36.1699412, -115.1398296
-2016-05-10 16:54:38,354 0    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Do i work ?43.1019300, -89.3401030
-2016-05-10 16:56:58,241 0    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Address: 43.1019300, -89.3401030
-2016-05-10 16:56:58,244 3    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - City: 36.1699412, -115.1398296
-2016-05-10 16:56:58,244 3    [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Zip: 43.1917640, 2.8153290
+2016-05-12 19:33:01,148 1    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
+2016-05-12 19:33:01,625 478  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 19:33:01,647 500  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 19:33:01,651 504  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 19:33:01,656 509  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 19:33:01,721 574  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 19:33:01,721 574  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 19:33:01,847 700  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 19:33:01,934 787  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 19:33:01,971 824  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 19:33:02,014 867  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 19:33:02,177 1030 [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 19:33:02,185 1038 [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 19:33:02,186 1039 [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 19:33:02,186 1039 [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.9.156.2:3306/funforfido]
+2016-05-12 19:33:02,186 1039 [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=adminQHNVyxl, password=****}
+2016-05-12 19:33:51,027 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
+2016-05-12 19:33:51,357 330  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 19:33:51,382 355  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 19:33:51,396 369  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 19:33:51,400 373  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 19:33:51,491 464  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 19:33:51,492 465  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 19:33:51,654 627  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 19:33:51,724 697  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 19:33:51,750 723  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 19:33:51,801 774  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 19:33:51,916 889  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 19:33:51,936 909  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 19:33:51,937 910  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 19:33:51,937 910  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.9.156.2:3306/funforfido]
+2016-05-12 19:33:51,938 911  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=adminQHNVyxl, password=****}
+2016-05-12 19:34:18,120 76973 [main] WARN  org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:34:18,126 76979 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 19:34:18,136 76989 [main] INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder  - HHH000422: Disabling contextual LOB creation as connection was null
+2016-05-12 19:34:18,346 77199 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 19:34:18,350 77203 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 19:35:33,954 152807 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:35:33,954 152807 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:35:33,959 152812 [main] ERROR com.jason.funForFido.persistence.MemberDAOHibernate  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:36:49,307 228160 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:36:49,307 228160 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:36:49,307 228160 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:38:04,686 303539 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:38:04,687 303540 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:38:04,687 303540 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:38:04,687 303540 [main] INFO  com.jason.funForFido.persistence.UsersDao  - 0eeeeeeee
+2016-05-12 19:39:20,101 378954 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:39:20,101 378954 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:39:20,102 378955 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:40:35,454 454307 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:40:35,454 454307 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:40:35,455 454308 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:41:50,832 529685 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:41:50,833 529686 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:41:50,833 529686 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:41:50,833 529686 [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - []
+2016-05-12 19:43:06,724 605577 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:43:06,725 605578 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:43:06,725 605578 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:44:22,161 681014 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 08S01
+2016-05-12 19:44:22,161 681014 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-05-12 19:44:22,161 681014 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.exception.JDBCConnectionException: Could not open connection
+2016-05-12 19:44:22,653 681506 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Address: 43.1019300, -89.3401030
+2016-05-12 19:44:22,653 681506 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - City: 36.1699412, -115.1398296
+2016-05-12 19:44:22,653 681506 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Zip: 43.1917640, 2.8153290
+2016-05-12 20:03:32,784 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
+2016-05-12 20:03:32,893 109  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 20:03:32,898 114  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 20:03:32,900 116  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 20:03:32,901 117  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 20:03:32,916 132  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 20:03:32,916 132  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 20:03:32,983 199  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 20:03:33,049 265  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 20:03:33,074 290  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 20:03:33,103 319  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 20:03:33,164 380  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 20:03:33,169 385  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 20:03:33,169 385  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 20:03:33,169 385  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.9.156.2:3306/funforfido]
+2016-05-12 20:03:33,169 385  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=adminQHNVyxl, password=****}
+2016-05-12 20:04:09,649 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - TestFirst
+2016-05-12 20:04:09,770 121  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 20:04:09,774 125  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 20:04:09,775 126  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 20:04:09,776 127  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 20:04:09,788 139  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 20:04:09,788 139  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 20:04:09,847 198  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 20:04:09,902 253  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 20:04:09,920 271  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 20:04:09,944 295  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 20:04:09,983 334  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 20:04:09,987 338  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 20:04:09,987 338  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 20:04:09,987 338  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 20:04:09,987 338  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 20:04:10,345 696  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 20:04:10,512 863  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 20:04:10,516 867  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 20:35:04,470 0    [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++TestFirst
+2016-05-12 20:35:04,583 113  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 20:35:04,586 116  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 20:35:04,588 118  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 20:35:04,589 119  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 20:35:04,600 130  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 20:35:04,600 130  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 20:35:04,649 179  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 20:35:04,699 229  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 20:35:04,717 247  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 20:35:04,746 276  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 20:35:04,787 317  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 20:35:04,795 325  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 20:35:04,795 325  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 20:35:04,795 325  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 20:35:04,795 325  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 20:35:05,148 678  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 20:35:05,313 843  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 20:35:05,317 847  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 20:35:05,631 1161 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID inserted: 35
+2016-05-12 20:36:06,407 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 20:36:06,416 9    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 20:36:06,418 11   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 20:36:06,419 12   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 20:36:06,436 29   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 20:36:06,437 30   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 20:36:06,486 79   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 20:36:06,525 118  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 20:36:06,543 136  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 20:36:06,559 152  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 20:36:06,588 181  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 20:36:06,592 185  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 20:36:06,592 185  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 20:36:06,593 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 20:36:06,593 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 20:36:06,990 583  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 20:36:07,144 737  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 20:36:07,151 744  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 20:36:07,413 1006 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++TestFirst
+2016-05-12 20:36:07,413 1006 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID inserted: 36
+2016-05-12 20:45:32,421 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 20:45:32,427 6    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 20:45:32,428 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 20:45:32,430 9    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 20:45:32,446 25   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 20:45:32,446 25   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 20:45:32,508 87   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 20:45:32,553 132  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 20:45:32,566 145  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 20:45:32,581 160  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 20:45:32,608 187  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 20:45:32,612 191  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 20:45:32,612 191  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 20:45:32,612 191  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 20:45:32,612 191  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 20:45:32,966 545  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 20:45:33,128 707  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 20:45:33,132 711  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 20:45:33,441 1020 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++[]++
+2016-05-12 20:53:36,788 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 20:53:36,793 5    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 20:53:36,795 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 20:53:36,797 9    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 20:53:36,814 26   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 20:53:36,814 26   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 20:53:36,865 77   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 20:53:36,908 120  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 20:53:36,923 135  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 20:53:36,943 155  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 20:53:36,970 182  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 20:53:36,974 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 20:53:36,974 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 20:53:36,974 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 20:53:36,974 186  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 20:53:37,317 529  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 20:53:37,469 681  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 20:53:37,477 689  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 20:53:37,789 1001 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++[com.jason.funForFido.entity.MemberEntity@b50e62ef, com.jason.funForFido.entity.MemberEntity@589e1b55, com.jason.funForFido.entity.MemberEntity@a9b59de1, com.jason.funForFido.entity.MemberEntity@cfbc8593, com.jason.funForFido.entity.MemberEntity@1ffef782, com.jason.funForFido.entity.MemberEntity@2c566961, com.jason.funForFido.entity.MemberEntity@b24af1ad, com.jason.funForFido.entity.MemberEntity@22d772bf, com.jason.funForFido.entity.MemberEntity@b9094f8e, com.jason.funForFido.entity.MemberEntity@bbd123c8, com.jason.funForFido.entity.MemberEntity@304634cf, com.jason.funForFido.entity.MemberEntity@dd19b03c, com.jason.funForFido.entity.MemberEntity@960880df, com.jason.funForFido.entity.MemberEntity@c9dde0e6, com.jason.funForFido.entity.MemberEntity@1c8af2ad, com.jason.funForFido.entity.MemberEntity@fcb99ecf, com.jason.funForFido.entity.MemberEntity@fb6e0baf, com.jason.funForFido.entity.MemberEntity@5cd397c8, com.jason.funForFido.entity.MemberEntity@e1bc0f4b, com.jason.funForFido.entity.MemberEntity@38bb16ee]++
+2016-05-12 20:54:26,557 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 20:54:26,561 4    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 20:54:26,562 5    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 20:54:26,563 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 20:54:26,575 18   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 20:54:26,576 19   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 20:54:26,630 73   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 20:54:26,680 123  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 20:54:26,697 140  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 20:54:26,721 164  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 20:54:26,755 198  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 20:54:26,762 205  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 20:54:26,762 205  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 20:54:26,763 206  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 20:54:26,763 206  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 20:54:27,144 587  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 20:54:27,290 733  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 20:54:27,294 737  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 20:54:27,543 986  [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++[com.jason.funForFido.entity.MemberEntity@b50e62ef, com.jason.funForFido.entity.MemberEntity@589e1b55, com.jason.funForFido.entity.MemberEntity@a9b59de1, com.jason.funForFido.entity.MemberEntity@cfbc8593, com.jason.funForFido.entity.MemberEntity@1ffef782, com.jason.funForFido.entity.MemberEntity@2c566961, com.jason.funForFido.entity.MemberEntity@b24af1ad, com.jason.funForFido.entity.MemberEntity@22d772bf, com.jason.funForFido.entity.MemberEntity@b9094f8e, com.jason.funForFido.entity.MemberEntity@bbd123c8, com.jason.funForFido.entity.MemberEntity@304634cf, com.jason.funForFido.entity.MemberEntity@dd19b03c, com.jason.funForFido.entity.MemberEntity@960880df, com.jason.funForFido.entity.MemberEntity@c9dde0e6, com.jason.funForFido.entity.MemberEntity@1c8af2ad, com.jason.funForFido.entity.MemberEntity@fcb99ecf, com.jason.funForFido.entity.MemberEntity@fb6e0baf, com.jason.funForFido.entity.MemberEntity@5cd397c8, com.jason.funForFido.entity.MemberEntity@e1bc0f4b, com.jason.funForFido.entity.MemberEntity@38bb16ee]++
+2016-05-12 20:54:27,576 1019 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++ TestFirst++
+2016-05-12 20:54:27,576 1019 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID inserted: 37
+2016-05-12 21:24:13,966 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 21:24:13,980 14   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 21:24:13,982 16   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 21:24:13,984 18   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 21:24:14,014 48   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 21:24:14,014 48   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 21:24:14,084 118  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 21:24:14,127 161  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 21:24:14,142 176  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 21:24:14,162 196  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 21:24:14,232 266  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 21:24:14,244 278  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 21:24:14,244 278  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 21:24:14,245 279  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 21:24:14,246 280  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 21:24:14,754 788  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 21:24:15,049 1083 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 21:24:15,062 1096 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 21:24:15,536 1570 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++[com.jason.funForFido.entity.MemberEntity@b50e62ef, com.jason.funForFido.entity.MemberEntity@589e1b55, com.jason.funForFido.entity.MemberEntity@a9b59de1, com.jason.funForFido.entity.MemberEntity@cfbc8593, com.jason.funForFido.entity.MemberEntity@1ffef782, com.jason.funForFido.entity.MemberEntity@2c566961, com.jason.funForFido.entity.MemberEntity@b24af1ad, com.jason.funForFido.entity.MemberEntity@22d772bf, com.jason.funForFido.entity.MemberEntity@b9094f8e, com.jason.funForFido.entity.MemberEntity@bbd123c8, com.jason.funForFido.entity.MemberEntity@304634cf, com.jason.funForFido.entity.MemberEntity@dd19b03c, com.jason.funForFido.entity.MemberEntity@960880df, com.jason.funForFido.entity.MemberEntity@c9dde0e6, com.jason.funForFido.entity.MemberEntity@1c8af2ad, com.jason.funForFido.entity.MemberEntity@fcb99ecf, com.jason.funForFido.entity.MemberEntity@fb6e0baf, com.jason.funForFido.entity.MemberEntity@5cd397c8, com.jason.funForFido.entity.MemberEntity@e1bc0f4b, com.jason.funForFido.entity.MemberEntity@38bb16ee]++
+2016-05-12 21:24:15,593 1627 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++ TestFirst++
+2016-05-12 21:24:15,593 1627 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID inserted: 38
+2016-05-12 21:24:15,620 1654 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1048, SQLState: 23000
+2016-05-12 21:24:15,620 1654 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Column 'parkName' cannot be null
+2016-05-12 21:24:15,623 1657 [main] ERROR com.jason.funForFido.persistence.ParkDAOHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
+2016-05-12 21:24:15,833 1867 [main] INFO  com.jason.funForFido.persistence.UsersDao  - print something java.lang.Integer
+2016-05-12 21:24:15,835 1869 [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: newusername
+2016-05-12 21:24:15,836 1870 [main] INFO  com.jason.funForFido.persistence.UsersDao  - 14eeeeeeee
+2016-05-12 21:24:15,863 1897 [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - [com.jason.funForFido.entity.UsersEntity@b0c069e0, com.jason.funForFido.entity.UsersEntity@2f84900, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@6264298, com.jason.funForFido.entity.UsersEntity@345d80, com.jason.funForFido.entity.UsersEntity@6938000, com.jason.funForFido.entity.UsersEntity@4e937ef0, com.jason.funForFido.entity.UsersEntity@48bb814d, com.jason.funForFido.entity.UsersEntity@4e9364a9, com.jason.funForFido.entity.UsersEntity@4e93a781, com.jason.funForFido.entity.UsersEntity@43d69a9c, com.jason.funForFido.entity.UsersEntity@e2adc301, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@d9286872]
+2016-05-12 21:24:15,865 1899 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.TypeMismatchException: Provided id of the wrong type for class com.jason.funForFido.entity.UsersEntity. Expected: class java.lang.Integer, got class java.lang.String
+2016-05-12 21:24:16,768 2802 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Address: 43.1019300, -89.3401030
+2016-05-12 21:24:16,769 2803 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - City: 36.1699412, -115.1398296
+2016-05-12 21:24:16,769 2803 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Zip: 43.1917640, 2.8153290
+2016-05-12 21:36:41,691 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 21:36:41,724 33   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 21:36:41,730 39   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 21:36:41,734 43   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 21:36:41,806 115  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 21:36:41,810 119  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 21:36:41,976 285  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 21:36:42,033 342  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 21:36:42,049 358  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 21:36:42,082 391  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 21:36:42,122 431  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 21:36:42,128 437  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 21:36:42,128 437  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 21:36:42,128 437  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 21:36:42,129 438  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 21:36:42,558 867  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 21:36:42,794 1103 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 21:36:42,799 1108 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 21:36:43,212 1521 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++[com.jason.funForFido.entity.MemberEntity@b50e62ef, com.jason.funForFido.entity.MemberEntity@589e1b55, com.jason.funForFido.entity.MemberEntity@a9b59de1, com.jason.funForFido.entity.MemberEntity@cfbc8593, com.jason.funForFido.entity.MemberEntity@1ffef782, com.jason.funForFido.entity.MemberEntity@2c566961, com.jason.funForFido.entity.MemberEntity@b24af1ad, com.jason.funForFido.entity.MemberEntity@22d772bf, com.jason.funForFido.entity.MemberEntity@b9094f8e, com.jason.funForFido.entity.MemberEntity@bbd123c8, com.jason.funForFido.entity.MemberEntity@304634cf, com.jason.funForFido.entity.MemberEntity@dd19b03c, com.jason.funForFido.entity.MemberEntity@960880df, com.jason.funForFido.entity.MemberEntity@c9dde0e6, com.jason.funForFido.entity.MemberEntity@1c8af2ad, com.jason.funForFido.entity.MemberEntity@fcb99ecf, com.jason.funForFido.entity.MemberEntity@fb6e0baf, com.jason.funForFido.entity.MemberEntity@5cd397c8, com.jason.funForFido.entity.MemberEntity@e1bc0f4b, com.jason.funForFido.entity.MemberEntity@38bb16ee]++
+2016-05-12 21:36:43,271 1580 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++ TestFirst++
+2016-05-12 21:36:43,271 1580 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID inserted: 39
+2016-05-12 21:36:43,299 1608 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1048, SQLState: 23000
+2016-05-12 21:36:43,299 1608 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Column 'parkName' cannot be null
+2016-05-12 21:36:43,300 1609 [main] ERROR com.jason.funForFido.persistence.ParkDAOHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
+2016-05-12 21:36:43,515 1824 [main] INFO  com.jason.funForFido.persistence.UsersDao  - print something java.lang.Integer
+2016-05-12 21:36:43,517 1826 [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: newusername
+2016-05-12 21:36:43,517 1826 [main] INFO  com.jason.funForFido.persistence.UsersDao  - 15eeeeeeee
+2016-05-12 21:36:43,543 1852 [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - [com.jason.funForFido.entity.UsersEntity@b0c069e0, com.jason.funForFido.entity.UsersEntity@2f84900, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@6264298, com.jason.funForFido.entity.UsersEntity@345d80, com.jason.funForFido.entity.UsersEntity@6938000, com.jason.funForFido.entity.UsersEntity@4e937ef0, com.jason.funForFido.entity.UsersEntity@48bb814d, com.jason.funForFido.entity.UsersEntity@4e9364a9, com.jason.funForFido.entity.UsersEntity@4e93a781, com.jason.funForFido.entity.UsersEntity@43d69a9c, com.jason.funForFido.entity.UsersEntity@e2adc301, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@d9286872]
+2016-05-12 21:36:43,544 1853 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.TypeMismatchException: Provided id of the wrong type for class com.jason.funForFido.entity.UsersEntity. Expected: class java.lang.Integer, got class java.lang.String
+2016-05-12 21:36:43,836 2145 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Address: 43.1019300, -89.3401030
+2016-05-12 21:36:43,836 2145 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - City: 36.1699412, -115.1398296
+2016-05-12 21:36:43,836 2145 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Zip: 43.1917640, 2.8153290
+2016-05-12 21:38:21,875 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 21:38:21,886 11   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 21:38:21,889 14   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 21:38:21,892 17   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 21:38:21,933 58   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 21:38:21,933 58   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 21:38:22,051 176  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 21:38:22,145 270  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 21:38:22,178 303  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 21:38:22,201 326  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 21:38:22,263 388  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 21:38:22,269 394  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 21:38:22,270 395  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 21:38:22,270 395  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 21:38:22,270 395  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 21:38:22,766 891  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 21:38:22,985 1110 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 21:38:22,999 1124 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 21:38:23,380 1505 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++[com.jason.funForFido.entity.MemberEntity@b50e62ef, com.jason.funForFido.entity.MemberEntity@589e1b55, com.jason.funForFido.entity.MemberEntity@a9b59de1, com.jason.funForFido.entity.MemberEntity@cfbc8593, com.jason.funForFido.entity.MemberEntity@1ffef782, com.jason.funForFido.entity.MemberEntity@2c566961, com.jason.funForFido.entity.MemberEntity@b24af1ad, com.jason.funForFido.entity.MemberEntity@22d772bf, com.jason.funForFido.entity.MemberEntity@b9094f8e, com.jason.funForFido.entity.MemberEntity@bbd123c8, com.jason.funForFido.entity.MemberEntity@304634cf, com.jason.funForFido.entity.MemberEntity@dd19b03c, com.jason.funForFido.entity.MemberEntity@960880df, com.jason.funForFido.entity.MemberEntity@c9dde0e6, com.jason.funForFido.entity.MemberEntity@1c8af2ad, com.jason.funForFido.entity.MemberEntity@fcb99ecf, com.jason.funForFido.entity.MemberEntity@fb6e0baf, com.jason.funForFido.entity.MemberEntity@5cd397c8, com.jason.funForFido.entity.MemberEntity@e1bc0f4b, com.jason.funForFido.entity.MemberEntity@38bb16ee]++
+2016-05-12 21:38:23,431 1556 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ++ TestFirst++
+2016-05-12 21:38:23,431 1556 [main] INFO  com.jason.funForFido.persistence.MemberDaoHibernateTest  - ID inserted: 40
+2016-05-12 21:38:23,458 1583 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1048, SQLState: 23000
+2016-05-12 21:38:23,458 1583 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Column 'parkName' cannot be null
+2016-05-12 21:38:23,460 1585 [main] ERROR com.jason.funForFido.persistence.ParkDAOHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
+2016-05-12 21:38:23,694 1819 [main] INFO  com.jason.funForFido.persistence.UsersDao  - print something java.lang.Integer
+2016-05-12 21:38:23,698 1823 [main] INFO  com.jason.funForFido.persistence.UsersDao  - Added user: newusername
+2016-05-12 21:38:23,699 1824 [main] INFO  com.jason.funForFido.persistence.UsersDao  - 16eeeeeeee
+2016-05-12 21:38:23,724 1849 [main] INFO  com.jason.funForFido.persistence.UsersDaoTest  - [com.jason.funForFido.entity.UsersEntity@b0c069e0, com.jason.funForFido.entity.UsersEntity@2f84900, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@6264298, com.jason.funForFido.entity.UsersEntity@345d80, com.jason.funForFido.entity.UsersEntity@6938000, com.jason.funForFido.entity.UsersEntity@4e937ef0, com.jason.funForFido.entity.UsersEntity@48bb814d, com.jason.funForFido.entity.UsersEntity@4e9364a9, com.jason.funForFido.entity.UsersEntity@4e93a781, com.jason.funForFido.entity.UsersEntity@43d69a9c, com.jason.funForFido.entity.UsersEntity@e2adc301, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@d9286872, com.jason.funForFido.entity.UsersEntity@d9286872]
+2016-05-12 21:38:23,725 1850 [main] ERROR com.jason.funForFido.persistence.UsersDao  - org.hibernate.TypeMismatchException: Provided id of the wrong type for class com.jason.funForFido.entity.UsersEntity. Expected: class java.lang.Integer, got class java.lang.String
+2016-05-12 21:38:24,563 2688 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Address: 43.1019300, -89.3401030
+2016-05-12 21:38:24,563 2688 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - City: 36.1699412, -115.1398296
+2016-05-12 21:38:24,563 2688 [main] INFO  com.jason.funForFido.webservice.LatAndLongPincodeTest  - Zip: 43.1917640, 2.8153290
+2016-05-12 21:40:28,170 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 21:40:28,176 6    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 21:40:28,177 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 21:40:28,178 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 21:40:28,189 19   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 21:40:28,189 19   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 21:40:28,238 68   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 21:40:28,279 109  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 21:40:28,294 124  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 21:40:28,313 143  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 21:40:28,337 167  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 21:40:28,341 171  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 21:40:28,341 171  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 21:40:28,341 171  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 21:40:28,341 171  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 21:40:28,755 585  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 21:40:28,910 740  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 21:40:28,916 746  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 21:40:29,171 1001 [main] INFO  com.jason.funForFido.persistence.ParkDAOHibernate  - Added parkcom.jason.funForFido.entity.ParkEntity@3368c1ba
+2016-05-12 21:40:29,172 1002 [main] INFO  com.jason.funForFido.persistence.ParkDAOHibernateTest  - ++ TestName++
+2016-05-12 21:40:29,172 1002 [main] INFO  com.jason.funForFido.persistence.ParkDAOHibernateTest  - ID inserted: 8
+2016-05-12 22:07:34,248 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-05-12 22:07:34,253 5    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-05-12 22:07:34,255 7    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-05-12 22:07:34,256 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-05-12 22:07:34,272 24   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-12 22:07:34,272 24   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-12 22:07:34,332 84   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: MemberEntity.hbm.xml
+2016-05-12 22:07:34,380 132  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ParkEntity.hbm.xml
+2016-05-12 22:07:34,397 149  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: UsersEntity.hbm.xml
+2016-05-12 22:07:34,418 170  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-05-12 22:07:34,445 197  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-12 22:07:34,449 201  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-05-12 22:07:34,449 201  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-05-12 22:07:34,449 201  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/funforfido]
+2016-05-12 22:07:34,450 202  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-05-12 22:07:34,780 532  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-12 22:07:34,948 700  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-12 22:07:34,952 704  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-05-12 22:07:35,201 953  [main] INFO  com.jason.funForFido.persistence.ParkDAOHibernate  - Added parkcom.jason.funForFido.entity.ParkEntity@684efcfb
+2016-05-12 22:07:35,202 954  [main] INFO  com.jason.funForFido.persistence.ParkDAOHibernateTest  - ++ TestName++
+2016-05-12 22:07:35,202 954  [main] INFO  com.jason.funForFido.persistence.ParkDAOHibernateTest  - ID inserted: 9
