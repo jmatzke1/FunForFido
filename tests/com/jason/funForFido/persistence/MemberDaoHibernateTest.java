@@ -49,14 +49,6 @@ public class MemberDaoHibernateTest {
     }
 
     @Test
-    public void testUpdateMember() {
-
-        dao.updateMember(member);
-        assertTrue(member.getZipCode().equals(""));
-
-    }
-
-    @Test
     public void testGetAllMembers() throws Exception {
 
         List<MemberEntity> memberEntityList = dao.getAllMembers();

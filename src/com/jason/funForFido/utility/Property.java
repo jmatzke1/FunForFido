@@ -20,8 +20,10 @@ public class Property {
     private final String propertyUrl = "/funforfido.properties";
     private String projectName;
     private String url;
-    private String key;
-    private String request;
+    private String author;
+    private String status;
+    private String latcompilepath;
+    private String longcompilepath;
     private final Logger log = Logger.getLogger(this.getClass());
 
 
@@ -32,10 +34,12 @@ public class Property {
     public Property() {
 
         loadProperties(propertyUrl);
-        setRequest(properties.getProperty("request.method"));
-        setProjectName(properties.getProperty("project.name"));
+        setStatus(properties.getProperty("status"));
+        setProjectName(properties.getProperty("projectName"));
         setUrl(properties.getProperty("url"));
-        setKey(properties.getProperty("api.key"));
+        setAuthor(properties.getProperty("author"));
+        setLongcompilepath(properties.getProperty("longcompilepath"));
+        setLatcompilepath(properties.getProperty("latcompilepath"));
     }
 
     /**
@@ -80,18 +84,18 @@ public class Property {
      *
      * @return request the type of request
      */
-    public String getRequest() {
-        return request;
+    public String getStatus() {
+        return status;
     }
 
     /**
-     * Set the request type
+     * Set the status type
      *
-     * @param request sets to get or post
+     * @param status sets to get or post
      */
-    private void setRequest(String request) {
+    private void setStatus(String status) {
 
-        this.request = request;
+        this.status = status;
     }
 
     /**
@@ -108,17 +112,18 @@ public class Property {
      *
      * @return key the api key
      */
-    public String getKey() {
-        return key;
+    public String getLatcompilepath() {
+        return latcompilepath;
     }
 
     /**
      * set the api key from value in the properties file
      *
-     * @param key the api key for the request
+     * @param latcompilepath path for long
      */
-    private void setKey(String key) {
-        this.key = key;
+    private void setLatcompilepath(String latcompilepath) {
+
+        this.latcompilepath = latcompilepath;
     }
 
     /**
@@ -135,5 +140,37 @@ public class Property {
         } catch (Exception exception) {
             exception.printStackTrace();
         }
+    }
+
+    /**
+     *  get the author
+     * @return author
+     */
+    public String getAuthor() {
+        return author;
+    }
+
+    /**
+     *
+     * @param author
+     */
+   private void setAuthor(String author) {
+        this.author = author;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public String getLongcompilepath() {
+        return longcompilepath;
+    }
+
+    /**
+     *
+     * @param longcompilepath
+     */
+    private void setLongcompilepath(String longcompilepath) {
+        this.longcompilepath = longcompilepath;
     }
 }

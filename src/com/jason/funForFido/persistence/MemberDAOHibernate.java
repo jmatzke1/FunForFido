@@ -13,7 +13,7 @@ import java.util.List;
  * @author jjjasonm
  *         Created on 3/17/16.
  */
-public class MemberDAOHibernate implements MemberDao {
+public class MemberDAOHibernate {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
@@ -34,30 +34,9 @@ public class MemberDAOHibernate implements MemberDao {
     }
 
     /**
-     * This method will change a field for the member
-     *
-     * @param member member the member to be changed
+     * deletes member from the database
+     * @param member member to be deleted
      */
-    public void updateMember(MemberEntity member) {
-
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Transaction tx = null;
-        try{
-            tx = session.beginTransaction();
-            member = (MemberEntity) session.get(MemberEntity.class, member.getZipCode());
-            session.update(member);
-            tx.commit();
-        }catch (HibernateException e) {
-            if (tx!=null) tx.rollback();
-            e.printStackTrace();
-        }finally {
-            session.close();
-        }
-
-    }
-
-
-    @Override
     public void deleteMember(MemberEntity member) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -75,8 +54,6 @@ public class MemberDAOHibernate implements MemberDao {
         }
     }
 
-
-    @Override
     public int addMember(MemberEntity member) {
 
 

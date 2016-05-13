@@ -38,11 +38,8 @@
 			<div class="col-lg-12">
 				<h4>Using this is easy just add you zip code and dog park in the search bar and find the nearest dop <parks></parks></h4>
 				<pre class="prettyprint linenums">
-					 &lt;div class="col-lg-12"&gt;<br />
-					 &nbsp;&nbsp;&lt;p&gtdiv cl ipsum dolor sit amet, consetetur sadipscing elitr..&lt;/p&gt;<br />
-					 &nbsp;&nbsp;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr..&lt;/p&gt;<br />
-					 &nbsp;&nbsp;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr..&lt;/p&gt;<br />
-					 &lt;/div&gt;
+					Any changes on how the search is done will be here. Since this is a hobby site where I
+					will be using what I learn. It will be changing constantly. Thanks.
 				</pre>
 			</div>
 		</div>

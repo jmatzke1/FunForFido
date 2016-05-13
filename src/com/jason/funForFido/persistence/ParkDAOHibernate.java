@@ -17,9 +17,11 @@ import java.util.List;
 public class    ParkDAOHibernate {
 
     private final Logger log = Logger.getLogger(this.getClass());
-    /*
-       todo: javadoc
-    */
+
+    /**
+     *  get all parks in the  database
+     * @return list of parks
+     */
     public List<ParkEntity> getAllParks() {
 
         List<ParkEntity> parks = new ArrayList<ParkEntity>();
@@ -33,23 +35,15 @@ public class    ParkDAOHibernate {
         return parks;
 
     }
-    /*
-       todo: javadoc
-    */
-    public ParkEntity getParkById(int id) {
 
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        return (ParkEntity)session.get(ParkEntity.class, id);
-
-    }
-
-    /*
-       todo: javadoc
-    */
+    /**
+     *
+     * @param park park object
+     * @return parkid - the id of the park entered
+     */
     public int addPark(ParkEntity park) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
-        // TODO: check to see if this matches the database
         Integer parkID = null;
 
         try {
@@ -72,6 +66,11 @@ public class    ParkDAOHibernate {
         return parkID;
     }
 
+    /**
+     *  deletes the park
+     *
+     * @param parkEntity park to be deleted
+     */
     public void deletePark(ParkEntity parkEntity) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -83,7 +82,7 @@ public class    ParkDAOHibernate {
             tx.commit();
         }catch (HibernateException e) {
             if (tx!=null) tx.rollback();
-            e.printStackTrace();
+            log.error(e);
         }finally {
             session.close();
         }

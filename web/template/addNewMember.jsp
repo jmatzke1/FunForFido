@@ -14,14 +14,14 @@
     <div class="form-group"> <!-- first name -->
         <label for="FirstName" class="col-lg-2 control-label">First Name</label>
         <div class="col-lg-4">
-            <input type="text" class="form-control" name="FirstName" id="FirstName" >
+            <input  min="2" type="text" class="form-control" name="FirstName" id="FirstName" >
         </div>
     </div>
 
     <div class="form-group">
         <label for="LastName" class="col-lg-2 control-label">Last Name</label>
         <div class="col-lg-4">
-            <input type="text" class="form-control" name="LastName" id="LastName">
+            <input min="2" type="text" class="form-control" name="LastName" id="LastName">
         </div>
     </div>
 
@@ -35,49 +35,49 @@
     <div class="form-group">
         <label for="username" class="col-lg-2 control-label">username</label>
         <div class="col-lg-4">
-            <input type="text" class="form-control" name="username" id="username">
+            <input min="2" type="text" class="form-control" name="username" id="username">
         </div>
     </div>
 
     <div class="form-group">
         <label for="password" class="col-lg-2 control-label">Password</label>
         <div class="col-lg-4">
-            <input type="password" class="form-control" name="password" id="password">
+            <input min="2" type="password" class="form-control" name="password" id="password">
         </div>
     </div>
 
     <div class="form-group">
         <label for="password2" class="col-lg-2 control-label">Re-enter password</label>
         <div class="col-lg-4">
-            <input type="password" class="form-control" name="password2" id="password2">
+            <input min="2" type="password" class="form-control" name="password2" id="password2">
         </div>
     </div>
 
     <div class="form-group">
         <label for="address" class="col-lg-2 control-label">Address</label>
         <div class="col-lg-4">
-            <input type="text" class="form-control" name="address" id="address">
+            <input min="2" type="text" class="form-control" name="address" id="address">
         </div>
     </div>
 
     <div class="form-group">
         <label for="city" class="col-lg-2 control-label">City</label>
         <div class="col-lg-4">
-            <input type="text" class="form-control" name="city" id="city">
+            <input min="2" type="text" class="form-control" name="city" id="city">
         </div>
     </div>
 
     <div class="form-group">
         <label for="state" class="col-lg-2 control-label">State</label>
         <div class="col-lg-4">
-            <input type="text" class="form-control" name="state" id="state">
+            <input min="2" type="text" class="form-control" name="state" id="state">
         </div>
     </div>
 
     <div class="form-group">
         <label for="zipCode" class="col-lg-2 control-label">Zip Code</label>
         <div class="col-lg-4">
-            <input type="text" class="form-control" name="zipCode" id="zipCode">
+            <input min="2" type="text" class="form-control" name="zipCode" id="zipCode">
         </div>
     </div>
 
