@@ -34,7 +34,7 @@ public class GooglePlacesClient
 //        final HttpUriRequest request = new HttpGet(builder.build());
 //
 //        final HttpResponse execute = this.client.execute(request);
-
+//
 //        final String response = EntityUtils.toString(execute.getEntity());
 
         //System.out.println(response);

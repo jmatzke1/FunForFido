@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4b36ff-e539-4e29-9703-107656cdc7c4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/webservice/EmailServlet.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/MemberDAOHibernate.class" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/MemberDAOHibernate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/ParkDAOHibernate.class" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/ParkDAOHibernate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/webservice/LatAndLongPincode.class" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/webservice/LatAndLongPincode.class" />
@@ -22,6 +23,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/searchPark.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/searchPark.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/template/head.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/template/head.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FunForFido/funforfido.properties" afterPath="$PROJECT_DIR$/out/production/FunForFido/funforfido.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/webservice/GooglePlacesClient.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/webservice/GooglePlacesClient.java" />
     </list>
     <ignored path="FunForFido.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +82,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Journal.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Journal.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Journal.md">
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
@@ -92,6 +94,36 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoCoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/webservice/GeoCoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeocodeResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/webservice/GeocodeResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GooglePlacesClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/webservice/GooglePlacesClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7509225">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,8 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/admin/blog.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/pricingbox.jsp" />
         <option value="$PROJECT_DIR$/web/admin/portfolio.jsp" />
         <option value="$PROJECT_DIR$/web/admin/components.jsp" />
         <option value="$PROJECT_DIR$/web/template/confimation.jsp" />
@@ -178,6 +208,8 @@
         <option value="$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java" />
         <option value="$PROJECT_DIR$/tests/com/jason/funForFido/utility/PropertyTest.java" />
         <option value="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UsersDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jason/funForFido/webservice/EmailServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/jason/funForFido/webservice/GooglePlacesClient.java" />
       </list>
     </option>
   </component>
@@ -1270,7 +1302,7 @@
       <workItem from="1462972865752" duration="12607000" />
       <workItem from="1463002891668" duration="2294000" />
       <workItem from="1463016391332" duration="12070000" />
-      <workItem from="1463076607746" duration="14934000" />
+      <workItem from="1463076607746" duration="15305000" />
     </task>
     <task id="LOCAL-00001" summary="add the start of project">
       <created>1455125352286</created>
@@ -1458,7 +1490,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463112677162</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fixing Test">
+      <created>1463112683566</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1463112683566</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1494,7 +1532,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324977000" />
+    <option name="totallyTimeSpent" value="325348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1665,30 +1703,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/add_member_confirmation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44344473">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/add_park_confirmation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21208227">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/template/member_confirmation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42416453">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/entity/MemberEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46758103">
@@ -2143,6 +2157,30 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/webservice/GeoCoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/webservice/GeocodeResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jason/funForFido/webservice/GooglePlacesClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7509225">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
