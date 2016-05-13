@@ -8,10 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4b36ff-e539-4e29-9703-107656cdc7c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/utility/PropertyTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/MemberDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FunForFido/com/jason/funForFido/persistence/MemberDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/MemberDao.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/MemberDAOHibernate.class" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/MemberDAOHibernate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/ParkDAOHibernate.class" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/persistence/ParkDAOHibernate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/webservice/LatAndLongPincode.class" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/com/jason/funForFido/webservice/LatAndLongPincode.class" />
@@ -21,21 +17,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/FunForFido/com/jason/funForFido/persistence/MemberDaoHibernateTest.class" afterPath="$PROJECT_DIR$/out/test/FunForFido/com/jason/funForFido/persistence/MemberDaoHibernateTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/FunForFido/com/jason/funForFido/webservice/LatAndLongPincodeTest.class" afterPath="$PROJECT_DIR$/out/test/FunForFido/com/jason/funForFido/webservice/LatAndLongPincodeTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Journal.md" afterPath="$PROJECT_DIR$/Journal.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/funforfido.properties" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/WEB-INF/classes/funforfido.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/member_add_park.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/member_add_park.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/searchPark.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/searchPark.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/template/head.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FunForFido_war_exploded/template/head.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FunForFido/funforfido.properties" afterPath="$PROJECT_DIR$/out/production/FunForFido/funforfido.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectlogs/funforfido.log" afterPath="$PROJECT_DIR$/projectlogs/funforfido.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/funforfido.properties" afterPath="$PROJECT_DIR$/resources/funforfido.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/MemberDAOHibernate.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/MemberDAOHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/ParkDAOHibernate.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/persistence/ParkDAOHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java" afterPath="$PROJECT_DIR$/src/com/jason/funForFido/utility/Property.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/MemberDaoHibernateTest.java" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/MemberDaoHibernateTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UsersDaoTest.java" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/persistence/UsersDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/jason/funForFido/webservice/LatAndLongPincodeTest.java" afterPath="$PROJECT_DIR$/tests/com/jason/funForFido/webservice/LatAndLongPincodeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/addNewMember.jsp" afterPath="$PROJECT_DIR$/web/template/addNewMember.jsp" />
     </list>
     <ignored path="FunForFido.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1284,7 +1270,7 @@
       <workItem from="1462972865752" duration="12607000" />
       <workItem from="1463002891668" duration="2294000" />
       <workItem from="1463016391332" duration="12070000" />
-      <workItem from="1463076607746" duration="14917000" />
+      <workItem from="1463076607746" duration="14934000" />
     </task>
     <task id="LOCAL-00001" summary="add the start of project">
       <created>1455125352286</created>
@@ -1466,7 +1452,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463109765948</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fixing Test">
+      <created>1463112677162</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1463112677162</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1502,7 +1494,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324960000" />
+    <option name="totallyTimeSpent" value="324977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1609,7 +1601,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixing ?" />
     <MESSAGE value="more templating again&#10;" />
     <MESSAGE value="fixing webxml&#10;" />
     <MESSAGE value="adding new hibernate test&#10;" />
@@ -1634,7 +1625,8 @@
     <MESSAGE value="parks now added with lat long" />
     <MESSAGE value="fixing logs" />
     <MESSAGE value="fixing logs and links" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing logs and links" />
+    <MESSAGE value="fixing Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
